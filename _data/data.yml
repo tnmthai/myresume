@@ -75,55 +75,27 @@ experiences:
         time: 05/2022 - Present
         company: Lincoln Agritech Ltd., Lincoln, New Zealand.
         details: |
-        •	Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
-        •	Knew how to use different sources for downloading Sentinel imagery (SciHub, Google cloud, GEE). 
-        •	Geospatial data analysis: (including imagery acquisition, processing, analytics and modelling)
-            o	Environment: Linux (Ubuntu and CentOS), Windows without/with WSL(for Ubuntu), macOS.
-            o	Languages:  Python with rasterio, rasterstats, geopandas, geemap, gdal, Fiona, etc; R (sen2r).
-            o	Modelling: Stats, confusion matrix, PCA, classification (Random Forest, K-NNC, SVM, etc. for vegetation and soil; land cover), clustering (K-Mean, SOM, etc.), change detection.
-            o	Remote sensing systems: QGIS, ArcGIS, Sen2Agri, Sen2Cap, Sen2r, GEE and AgDataBox.
-                	Used Sen2Agri and Sen4Cap for imagery downloading, processing and monitoring on local and national scales.
-                	Used Sen2r: for imagery downloading, useful for images older than a year. 
-                	QGIS, ArcGIS and GEE: for preprocessing and analysing imagery.
-                	AgDataBox: Integration of data and software in precision agriculture.
-        •	Experience in using UAV eBeeX (RedEdge, Duet T and SODA 3D cameras) and Pix4D for processing UAV data.
-        •	Experience in ground measurement sensors: LAI + PAR plant sensor (LAI-2200C); Dualex Force-A, chlorophyll meter; GPS devices with RTK (e.g., Trimble R10); LiDAR (SICK LMS-511 PRO-HD).
-        •	Established workflows and/or Python codes for:
-        o	Imagery downloading, processing (L1C to L2A products) and modelling.
-        o	UAV data collecting, processing, display, masking, data extraction and modelling.
-        o	File naming standards, folder structure and metadata aiming data management.
-        •	Cooperate, organise and manage the Workshops (labs).
-        •	Write reports and research papers.
-        Working Projects
-        •	Manuka project: Mānuka Identification Tool using Sentinel 2 Imagery.
-        o	Applied Sen2 processing workflow for L1C to L2A product and cloud mask clipping;
-        o	Supported data preparation, mining, modelling, and statistics;
-        o	Knew how to build ArcGIS toolbox and/or standalone GIS toolbox.
-        •	White Clover project: 
-        o	Main Pilot for UAV data collection.
-        o	Acquired and processed UAV data – acquire, process, and display through layouts, crop mask and data extraction/statistics with Python codes.
-        o	Used ground sensing sensor for ground measurements (in situ data collection) and stats: Dualex Force-A and LAI-2200C.
-        o	Wrote protocol and reports.
-        •	MoCoSe project: Collected samples on the field in Dunsandel.
-        •	MPI SFF Blended Fertiliser project: Collected samples on the field in Timaru.
+        - Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
+        - Knew how to use different sources for downloading Sentinel imagery (SciHub, Google cloud, GEE). 
+        
 
       - role: Statistical Analysis and Machine Learning
         time: 02/2022 - 04/2022
         company: N3T, Whangārei, New Zealand
         details: |
-            - Creating PDF reports.
+        - Creating PDF reports.
 
-            - Performance tuning, UX improvements and UI development.
+        - Performance tuning, UX improvements and UI development.
 
-            - Interactive data visualization.
+        - Interactive data visualization.
 
-            - AWS handshake
+        - AWS handshake
 
-            - Data Cleansing.
+        - Data Cleansing.
 
-            - Statistical Analysis and Machine Learning.
+        - Statistical Analysis and Machine Learning.
 
-            - Linking backend to React Frontend.
+        - Linking backend to React Frontend.
 
       - role: UI Developer
         time: 2012 - 2014
