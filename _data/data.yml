@@ -52,10 +52,10 @@ sidebar:
           link:
 
 career-profile:
-    title: Profile
+    title: About me
     summary: |
       Thai Tran received a PhD in Computer Science at Lincoln University - New Zealand. He successfully passed his PhD oral exam on 13/07/2021. He was supervised by Professor <a href="https://researchers.lincoln.ac.nz/sandhya.samarasinghe" class="underline" target="_blank" rel="noopener noreferrer">Sandhya Samarasinghe</a> (Lincoln University), Professor <a href="https://researchers.lincoln.ac.nz/don.kulasiri" class="underline" target="_blank" rel="noopener noreferrer">Don Kulasiri</a> (Lincoln University) and Distinguished Professor <a href="https://ase.tufts.edu/biology/labs/levin/" class="underline" target="_blank" rel="noopener noreferrer">Michael Levin</a> (Wyss Institute, Harvard, and Tufts University, USA)
-      #A researcher with a PhD in Computer Science with strong experience in databases, SQL, Python and Machine Learning. With 5+ years of hands-on experience in Machine Learning with TensorFlow, Keras and PyTorch; 4+ years experience in using Python for preprocessing data and analysing data. I am passionate about cutting-edge technology and solving real-world problems in agriculture and horticulture with my recent experience.
+      
 education:
     title: Education
     info:
@@ -66,17 +66,12 @@ education:
           Comprehensive Conceptual and Computational Dynamics Frameworks for Autonomous Regeneration and Bioelectric Homeostasis in Biological Systems
             - Dean's List.
             - Full scholarship.
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: Master of Science in Computer Science and Engineering
+        university: National Chiao Tung University - Taiwan
+        time: 2012 - 2014
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Methods for Abnormal Usage Detection in Developing Intelligent Systems for Smart Homes
+
 experiences:
     title: Experiences
     info:
