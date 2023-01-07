@@ -23,7 +23,7 @@ sidebar:
     #stack-overflow: # Number/Username, e.g. 123456/alandoe
     #codewars:
     #goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -55,7 +55,7 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: PhD in Information Systems and Computer Science
+      - degree: PhD in Information Systems and Computer Science (Dean's List)
         university: Lincoln University - New Zealand
         time: 2017 - 2021
         details: |
@@ -71,18 +71,33 @@ experiences:
     title: Experiences
     info:
       - role: Geospatial Research Assistant
-        time: 2022 - Present
+        time: 05/2022 - Present
         company: Lincoln Agritech Ltd., Lincoln, New Zealand.
         details: |
             Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
             Knew how to use different sources for downloading Sentinel imagery (SciHub, Google cloud, GEE). 
-        
+            •	Geospatial data analysis: (including imagery acquisition, processing, analytics and modelling)
+                o	Environment: Linux (Ubuntu and CentOS), Windows without/with WSL(for Ubuntu), macOS.
+                o	Languages:  Python with rasterio, rasterstats, geopandas, geemap, gdal, Fiona, etc; R (sen2r).
+                o	Modelling: Stats, confusion matrix, PCA, classification (Random Forest, K-NNC, SVM, etc. for vegetation and soil; land cover), clustering (K-Mean, SOM, etc.), change detection.
+                o	Remote sensing systems: QGIS, ArcGIS, Sen2Agri, Sen2Cap, Sen2r, GEE and AgDataBox.
+                    	Used Sen2Agri and Sen4Cap for imagery downloading, processing and monitoring on local and national scales.
+                    	Used Sen2r: for imagery downloading, useful for images older than a year. 
+                    	QGIS, ArcGIS and GEE: for preprocessing and analysing imagery.
+                    	AgDataBox: Integration of data and software in precision agriculture.
+
 
       - role: Statistical Analysis and Machine Learning
         time: 02/2022 - 04/2022
         company: N3T, Whangārei, New Zealand
         details: |
-
+            <br><br><span>&#8226;</span> Creating PDF reports.  
+            <br><br><span>&#8226;</span> Performance tuning, UX improvements and UI development.
+            <br><br><span>&#8226;</span> Interactive data visualization.
+            <br><br><span>&#8226;</span> AWS handshake
+            <br><br><span>&#8226;</span> Data Cleansing.
+            <br><br><span>&#8226;</span> Statistical Analysis and Machine Learning.
+            <br><br><span>&#8226;</span> Linking backend to React Frontend.
 
       - role: UI Developer
         time: 2012 - 2014
