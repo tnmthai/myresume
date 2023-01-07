@@ -52,14 +52,10 @@ sidebar:
           link:
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Thai Tran received a PhD in Computer Science at Lincoln University - New Zealand. He successfully passed his PhD oral exam on 13/07/2021. He was supervised by Professor <a href="https://researchers.lincoln.ac.nz/sandhya.samarasinghe" class="underline" target="_blank" rel="noopener noreferrer">Sandhya Samarasinghe</a> (Lincoln University), Professor <a href="https://researchers.lincoln.ac.nz/don.kulasiri" class="underline" target="_blank" rel="noopener noreferrer">Don Kulasiri</a> (Lincoln University) and Distinguished Professor <a href="https://ase.tufts.edu/biology/labs/levin/" class="underline" target="_blank" rel="noopener noreferrer">Michael Levin</a> (Wyss Institute, Harvard, and Tufts University, USA)
+      A researcher with a PhD in Computer Science with strong experience in databases, SQL, Python and Machine Learning. With 5+ years of hands-on experience in Machine Learning with TensorFlow, Keras and PyTorch; 4+ years experience in using Python for preprocessing data and analysing data. I am passionate about cutting-edge technology and solving real-world problems in agriculture and horticulture with my recent experience.
 education:
     title: Education
     info:
