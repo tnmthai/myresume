@@ -71,30 +71,18 @@ experiences:
     title: Experiences
     info:
       - role: Geospatial Research Assistant
-        time: 05/2022 - Present
+        time: 2022 - Present
         company: Lincoln Agritech Ltd., Lincoln, New Zealand.
         details: |
-        - Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
-        - Knew how to use different sources for downloading Sentinel imagery (SciHub, Google cloud, GEE). 
+            Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
+            Knew how to use different sources for downloading Sentinel imagery (SciHub, Google cloud, GEE). 
         
 
       - role: Statistical Analysis and Machine Learning
         time: 02/2022 - 04/2022
         company: N3T, Whangārei, New Zealand
         details: |
-        - Creating PDF reports.
 
-        - Performance tuning, UX improvements and UI development.
-
-        - Interactive data visualization.
-
-        - AWS handshake
-
-        - Data Cleansing.
-
-        - Statistical Analysis and Machine Learning.
-
-        - Linking backend to React Frontend.
 
       - role: UI Developer
         time: 2012 - 2014
