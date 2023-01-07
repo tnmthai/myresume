@@ -9,24 +9,24 @@ sidebar:
     # Profile information
     name: Thai Tran
     tagline: Geospatial Research Assistant
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: 'profile.png'  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: tnmthai@gmail.com
-    phone: 022 455 3617
-    timezone: Auckland/New Zealand
-    citizenship:
+    #phone: 022 455 3617
+    #timezone: Auckland/New Zealand
+    #citizenship:
     website: tnmthai.com #do not add http://
     linkedin: tnmthai
-    xing: alandoe
+    #xing: alandoe
     github: tnmthai
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
     twitter: '@tnmthai'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
@@ -54,7 +54,7 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      Thai Tran received a PhD in Computer Science at Lincoln University - New Zealand. He successfully passed his PhD oral exam on 13/07/2021. He was supervised by Professor <a href="https://researchers.lincoln.ac.nz/sandhya.samarasinghe" class="underline" target="_blank" rel="noopener noreferrer">Sandhya Samarasinghe</a> (Lincoln University), Professor <a href="https://researchers.lincoln.ac.nz/don.kulasiri" class="underline" target="_blank" rel="noopener noreferrer">Don Kulasiri</a> (Lincoln University) and Distinguished Professor <a href="https://ase.tufts.edu/biology/labs/levin/" class="underline" target="_blank" rel="noopener noreferrer">Michael Levin</a> (Wyss Institute, Harvard, and Tufts University, USA)
+      
       A researcher with a PhD in Computer Science with strong experience in databases, SQL, Python and Machine Learning. With 5+ years of hands-on experience in Machine Learning with TensorFlow, Keras and PyTorch; 4+ years experience in using Python for preprocessing data and analysing data. I am passionate about cutting-edge technology and solving real-world problems in agriculture and horticulture with my recent experience.
 education:
     title: Education
