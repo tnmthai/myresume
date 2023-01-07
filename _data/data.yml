@@ -23,7 +23,7 @@ sidebar:
     #stack-overflow: # Number/Username, e.g. 123456/alandoe
     #codewars:
     #goodreads: # Number-Username, e.g. 123456-alandoe
-    #pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -38,13 +38,13 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Photographer (iPhone, Canon, GoPro) 
+        - item: Photographer
           link:
 
         - item: Travel and discover new places
           link:
 
-        - item: Play games: Chess, Rummikub
+        - item: Play games: Chess and Rummikub
           link:
 
 career-profile:
