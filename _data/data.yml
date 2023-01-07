@@ -16,18 +16,18 @@ sidebar:
     #phone: 022 455 3617
     #timezone: Auckland/New Zealand
     #citizenship:
-    website: tnmthai.com #do not add http://
+    #website: tnmthai.com #do not add http://
     linkedin: tnmthai
     #xing: alandoe
     github: tnmthai
     #telegram: # add your nickname without '@' sign
     #gitlab:
     #bitbucket:
-    twitter: '@tnmthai'
+    #twitter: '@tnmthai'
     #stack-overflow: # Number/Username, e.g. 123456/alandoe
     #codewars:
     #goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -54,7 +54,7 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      Thai Tran received a PhD in Computer Science at Lincoln University - New Zealand. He successfully passed his PhD oral exam on 13/07/2021. He was supervised by Professor <a href="https://researchers.lincoln.ac.nz/sandhya.samarasinghe" class="underline" target="_blank" rel="noopener noreferrer">Sandhya Samarasinghe</a> (Lincoln University), Professor <a href="https://researchers.lincoln.ac.nz/don.kulasiri" class="underline" target="_blank" rel="noopener noreferrer">Don Kulasiri</a> (Lincoln University) and Distinguished Professor <a href="https://ase.tufts.edu/biology/labs/levin/" class="underline" target="_blank" rel="noopener noreferrer">Michael Levin</a> (Wyss Institute, Harvard, and Tufts University, USA)
+      Thai Tran received a PhD in Computer Science at Lincoln University - New Zealand. He successfully passed his PhD oral exam on 13/07/2021. He was supervised by Professor <a href="https://researchers.lincoln.ac.nz/sandhya.samarasinghe" class="underline" target="_blank" rel="noopener noreferrer">Sandhya Samarasinghe</a> (Lincoln University), Professor <a href="https://researchers.lincoln.ac.nz/don.kulasiri" class="underline" target="_blank" rel="noopener noreferrer">Don Kulasiri</a> (Lincoln University) and Distinguished Professor <a href="https://ase.tufts.edu/biology/labs/levin/" class="underline" target="_blank" rel="noopener noreferrer">Michael Levin</a> (Wyss Institute, Harvard, and Tufts University, USA).
       
 education:
     title: Education
@@ -75,32 +75,60 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Geospatial Research Assistant                                                                                     
+        time: 05/2022 - Present
+        company: Lincoln Agritech Ltd., Lincoln, New Zealand.
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        •	Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
+        •	Knew how to use different sources for downloading Sentinel imagery (SciHub, Google cloud, GEE). 
+        •	Geospatial data analysis: (including imagery acquisition, processing, analytics and modelling)
+            o	Environment: Linux (Ubuntu and CentOS), Windows without/with WSL(for Ubuntu), macOS.
+            o	Languages:  Python with rasterio, rasterstats, geopandas, geemap, gdal, Fiona, etc; R (sen2r).
+            o	Modelling: Stats, confusion matrix, PCA, classification (Random Forest, K-NNC, SVM, etc. for vegetation and soil; land cover), clustering (K-Mean, SOM, etc.), change detection.
+            o	Remote sensing systems: QGIS, ArcGIS, Sen2Agri, Sen2Cap, Sen2r, GEE and AgDataBox.
+                	Used Sen2Agri and Sen4Cap for imagery downloading, processing and monitoring on local and national scales.
+                	Used Sen2r: for imagery downloading, useful for images older than a year. 
+                	QGIS, ArcGIS and GEE: for preprocessing and analysing imagery.
+                	AgDataBox: Integration of data and software in precision agriculture.
+        •	Experience in using UAV eBeeX (RedEdge, Duet T and SODA 3D cameras) and Pix4D for processing UAV data.
+        •	Experience in ground measurement sensors: LAI + PAR plant sensor (LAI-2200C); Dualex Force-A, chlorophyll meter; GPS devices with RTK (e.g., Trimble R10); LiDAR (SICK LMS-511 PRO-HD).
+        •	Established workflows and/or Python codes for:
+        o	Imagery downloading, processing (L1C to L2A products) and modelling.
+        o	UAV data collecting, processing, display, masking, data extraction and modelling.
+        o	File naming standards, folder structure and metadata aiming data management.
+        •	Cooperate, organise and manage the Workshops (labs).
+        •	Write reports and research papers.
+        Working Projects
+        •	Manuka project: Mānuka Identification Tool using Sentinel 2 Imagery.
+        o	Applied Sen2 processing workflow for L1C to L2A product and cloud mask clipping;
+        o	Supported data preparation, mining, modelling, and statistics;
+        o	Knew how to build ArcGIS toolbox and/or standalone GIS toolbox.
+        •	White Clover project: 
+        o	Main Pilot for UAV data collection.
+        o	Acquired and processed UAV data – acquire, process, and display through layouts, crop mask and data extraction/statistics with Python codes.
+        o	Used ground sensing sensor for ground measurements (in situ data collection) and stats: Dualex Force-A and LAI-2200C.
+        o	Wrote protocol and reports.
+        •	MoCoSe project: Collected samples on the field in Dunsandel.
+        •	MPI SFF Blended Fertiliser project: Collected samples on the field in Timaru.
+
+      - role: Statistical Analysis and Machine Learning
+        time: 02/2022 - 04/2022
+        company: N3T, Whangārei, New Zealand
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - Creating PDF reports.
+
+            - Performance tuning, UX improvements and UI development.
+
+            - Interactive data visualization.
+
+            - AWS handshake
+
+            - Data Cleansing.
+
+            - Statistical Analysis and Machine Learning.
+
+            - Linking backend to React Frontend.
+
       - role: UI Developer
         time: 2012 - 2014
         company: Amazon, London
