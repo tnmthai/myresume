@@ -74,7 +74,7 @@ experiences:
         time: 05/2022 - Present
         company: Lincoln Agritech Ltd., Lincoln, New Zealand.
         details: |
-            <br><br><span>&#45;</span> Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
+            <p><span>&#45;</span> Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
             <br><br><span>&#45;</span> Knew how to use different sources for downloading Sentinel imagery (SciHub, Google cloud, GEE). 
             <br><br><span>&#45;</span> Geospatial data analysis: (including imagery acquisition, processing, analytics and modelling)
                 <br><br><span>&ensp; &#43;</span> Environment: Linux (Ubuntu and CentOS), Windows without/with WSL(for Ubuntu), macOS.
