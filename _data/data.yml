@@ -85,31 +85,74 @@ experiences:
                     <p><span>&emsp; &#8226;</span> Used Sen2r: for imagery downloading, useful for images older than a year. 
                     <p><span>&emsp; &#8226;</span> QGIS, ArcGIS and GEE: for preprocessing and analysing imagery.
                     <p><span>&emsp; &#8226;</span> AgDataBox: Integration of data and software in precision agriculture.
+            <p><span>&#45;</span> Experience in using UAV eBeeX (RedEdge, Duet T and SODA 3D cameras) and Pix4D for processing UAV data.
+            <p><span>&#45;</span> Experience in ground measurement sensors: LAI + PAR plant sensor (LAI-2200C); Dualex Force-A, chlorophyll meter; GPS devices with RTK (e.g., Trimble R10); LiDAR (SICK LMS-511 PRO-HD).
+            <p><span>&#45;</span> Established workflows and/or Python codes for:
+                <p><span>&ensp; &#43;</span> Imagery downloading, processing (L1C to L2A products) and modelling.
+                <p><span>&ensp; &#43;</span> UAV data collecting, processing, display, masking, data extraction and modelling.
+                <p><span>&ensp; &#43;</span> File naming standards, folder structure and metadata aiming data management.
+            <p><span>&#45;</span> Cooperate, organise and manage the Workshops (labs).
+            <p><span>&#45;</span> Write reports and research papers.
+      - role: Research Technician
+        time: 01/2022 - 04/2022
+        company: Bio-Protection Research Centre, Lincoln University
+        details: |
+            <p><span>&#45;</span> Prepared equipment, materials, products and specimens for experiments. 
+            <p><span>&#45;</span> Collected and collated samples (gas, soil) from the field for research.
+            <p><span>&#45;</span> Cleaned and filtered samples for analysing.
+            <p><span>&#45;</span> Set up and performed experiments in the field.
+            <p><span>&#45;</span> Set up, operated and maintained laboratories for teaching and research.
 
 
       - role: Statistical Analysis and Machine Learning
         time: 02/2022 - 04/2022
         company: N3T, Whangārei, New Zealand
         details: |
-            <br><br><span>&#8226;</span> Creating PDF reports.  
-            <br><br><span>&#8226;</span> Performance tuning, UX improvements and UI development.
-            <br><br><span>&#8226;</span> Interactive data visualization.
-            <br><br><span>&#8226;</span> AWS handshake
-            <br><br><span>&#8226;</span> Data Cleansing.
-            <br><br><span>&#8226;</span> Statistical Analysis and Machine Learning.
-            <br><br><span>&#8226;</span> Linking backend to React Frontend.
+            <p><span>&#45;</span> Creating PDF reports.  
+            <p><span>&#45;</span> Performance tuning, UX improvements and UI development.
+            <p><span>&#45;</span> Interactive data visualization.
+            <p><span>&#45;</span> AWS handshake
+            <p><span>&#45;</span> Data Cleansing.
+            <p><span>&#45;</span> Statistical Analysis and Machine Learning.
+            <p><span>&#45;</span> Linking backend to React Frontend.
 
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      - role: Postdoctoral in Artificial Intelligence / Machine Learning
+        time: 08/2021 – 12/2021
+        company: Lincoln University, New Zealand
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            <p><span>&#45;</span> Acquiring data from primary and secondary sources and maintaining data systems. 
+            <p><span>&#45;</span> Filtering, cleaning data, visualising raw data and output results. 
+            <p><span>&#45;</span> Identifying, analysing, and interpreting trends or patterns in complex data sets. 
+            <p><span>&#45;</span> Analysing data using statistical techniques and providing reports.
+            <p><span>&#45;</span> Adapted Neural Networks and Recurrent Neural Networks (RNN) to model cell cycles in biology.
+            <p><span>&#45;</span> Modified parameters of Neural Networks for training and testing data.
+            <p><span>&#45;</span> Software coding (Python, Matlab and Excel) for Data Analysis and Data Visualization.
+            <p><span>&#45;</span> Analysed outcomes and wrote research papers and reports.
+      - role: PhD student, Dean’s List 
+        time:  04/2017 – 08/2021
+        company: Lincoln University, New Zealand
+        details: |
+            Project: Autonomous Self-repair Systems 
+            <p><span>&#45;</span> Fine-tuning Neural Networks to model the self-repair of biological tissues and organisms.
+            <p><span>&#45;</span> Improved Hopfield Neural Networks to restore the function and structures of the organisms.
+            <p><span>&#45;</span> Proposed three self-repair algorithms for tissues, simple and complex organisms. 
+            <p><span>&#45;</span> Visualised outputs, completed programming and ran simulations (in Python).
+            <p><span>&#45;</span> Wrote report results, research papers and thesis. 
+            <p><span>&#45;</span> Reviewed some research papers for journals and conferences.
+      - role: Data Analyst – Artificial Intelligence / Machine Learning
+        time:  09/2019 – 12/2019 
+        company: Lincoln University, New Zealand
+        details: |
+            Project: Applied Neural Networks to analyse biological tissues
+            <p><span>&#45;</span> Data entry, migration and preparation for analytics.
+            <p><span>&#45;</span> Used Hopfield Networks to hold the memory of biological tissues with many connection topologies. 
+            <p><span>&#45;</span> Explored the types of memory and their relevance to potential tissue function, the influence of connection topology and the persistence of memory in tissues. 
+            <p><span>&#45;</span> Explored discrete and continuous states on the Hopfield Networks.
+            <p><span>&#45;</span> Software coding for Data Analysis and Data Visualization.
+            <p><span>&#45;</span> Identified questions, and concepts and understood relevant neural network modelling.
+            <p><span>&#45;</span> Wrote report results and research papers. 
+
+        
 projects:
     title: Projects
     intro: >
