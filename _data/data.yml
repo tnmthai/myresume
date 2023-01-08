@@ -210,9 +210,9 @@ publications:
         conference: PNAS NEXUS - Oxford Academic. (Accepted 12/2022). Q1, IF= 12.779.
 
       - title: A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration Systems.
-        link: "https://doi.org/10.1162/artl_a_00343"
+        link: "doi.org/10.1162/artl_a_00343"
         authors: T. N. Minh-Thai, Sandhya Samarasinghe, Michael Levin
-        conference: Article in Artificial Life. 2021; MIT Press. DOI: https://doi.org/10.1162/artl_a_00343. Q3.
+        conference: Article in Artificial Life. 2021, MIT Press, DOI https://doi.org/10.1162/artl_a_00343, Q3.
 
       - title: A Computational Framework for Autonomous Self-repair Systems.
         link: "#"
