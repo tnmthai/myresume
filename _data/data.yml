@@ -75,16 +75,16 @@ experiences:
         company: Lincoln Agritech Ltd., Lincoln, New Zealand.
         details: |
             <p><span>&#45;</span> Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
-            <br><br><span>&#45;</span> Knew how to use different sources for downloading Sentinel imagery (SciHub, Google cloud, GEE). 
-            <br><br><span>&#45;</span> Geospatial data analysis: (including imagery acquisition, processing, analytics and modelling)
-                <br><br><span>&ensp; &#43;</span> Environment: Linux (Ubuntu and CentOS), Windows without/with WSL(for Ubuntu), macOS.
-                <br><br><span>&ensp; &#43;</span> Languages:  Python with rasterio, rasterstats, geopandas, geemap, gdal, Fiona, etc; R (sen2r).
-                <br><br><span>&ensp; &#43;</span> Modelling: Stats, confusion matrix, PCA, classification (Random Forest, K-NNC, SVM, etc. for vegetation and soil; land cover), clustering (K-Mean, SOM, etc.), change detection.
-                <br><br><span>&ensp; &#43;</span> Remote sensing systems: QGIS, ArcGIS, Sen2Agri, Sen2Cap, Sen2r, GEE and AgDataBox.
-                    <br><br><span>&emsp; &#8226;</span> Used Sen2Agri and Sen4Cap for imagery downloading, processing and monitoring on local and national scales.
-                    <br><br><span>&emsp; &#8226;</span> Used Sen2r: for imagery downloading, useful for images older than a year. 
-                    <br><br><span>&emsp; &#8226;</span> QGIS, ArcGIS and GEE: for preprocessing and analysing imagery.
-                    <br><br><span>&emsp; &#8226;</span> AgDataBox: Integration of data and software in precision agriculture.
+            <p><span>&#45;</span> Knew how to use different sources for downloading Sentinel imagery (SciHub, Google cloud, GEE). 
+            <p><span>&#45;</span> Geospatial data analysis: (including imagery acquisition, processing, analytics and modelling)
+                <p><span>&ensp; &#43;</span> Environment: Linux (Ubuntu and CentOS), Windows without/with WSL(for Ubuntu), macOS.
+                <p><span>&ensp; &#43;</span> Languages:  Python with rasterio, rasterstats, geopandas, geemap, gdal, Fiona, etc; R (sen2r).
+                <p><span>&ensp; &#43;</span> Modelling: Stats, confusion matrix, PCA, classification (Random Forest, K-NNC, SVM, etc. for vegetation and soil; land cover), clustering (K-Mean, SOM, etc.), change detection.
+                <p><span>&ensp; &#43;</span> Remote sensing systems: QGIS, ArcGIS, Sen2Agri, Sen2Cap, Sen2r, GEE and AgDataBox.
+                    <p><span>&emsp; &#8226;</span> Used Sen2Agri and Sen4Cap for imagery downloading, processing and monitoring on local and national scales.
+                    <p><span>&emsp; &#8226;</span> Used Sen2r: for imagery downloading, useful for images older than a year. 
+                    <p><span>&emsp; &#8226;</span> QGIS, ArcGIS and GEE: for preprocessing and analysing imagery.
+                    <p><span>&emsp; &#8226;</span> AgDataBox: Integration of data and software in precision agriculture.
 
 
       - role: Statistical Analysis and Machine Learning
