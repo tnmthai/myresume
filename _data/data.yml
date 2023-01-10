@@ -19,7 +19,7 @@ sidebar:
     #telegram: # add your nickname without '@' sign
     #gitlab:
     #bitbucket:
-    #twitter: '@tnmthai'
+    twitter: '@tnmthai'
     #stack-overflow: # Number/Username, e.g. 123456/alandoe
     #codewars:
     #goodreads: # Number-Username, e.g. 123456-alandoe
@@ -71,7 +71,7 @@ experiences:
     title: Experiences
     info:
       - role: <strong>Geospatial Research Assistant</strong>
-        time: 05/2022 - Present
+        time: <em>05/2022 - Present</em>
         company: Lincoln Agritech Ltd., Lincoln, New Zealand.
         details: |
             <p><span>&#45;</span> Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
@@ -94,7 +94,7 @@ experiences:
             <p><span>&#45;</span> Cooperate, organise and manage the Workshops (labs).
             <p><span>&#45;</span> Write reports and research papers.
       - role: <strong>Research Technician</strong>
-        time: 01/2022 - 04/2022
+        time: <em>01/2022 - 04/2022</em>
         company: Bio-Protection Research Centre, Lincoln University
         details: |
             <p><span>&#45;</span> Prepared equipment, materials, products and specimens for experiments. 
@@ -105,7 +105,7 @@ experiences:
 
 
       - role: <strong>Statistical Analysis and Machine Learning</strong>
-        time: 02/2022 - 04/2022
+        time: <em>02/2022 - 04/2022</em>
         company: N3T, Whangārei, New Zealand
         details: |
             <p><span>&#45;</span> Creating PDF reports.  
@@ -117,7 +117,7 @@ experiences:
             <p><span>&#45;</span> Linking backend to React Frontend.
 
       - role: <strong>Postdoctoral in Artificial Intelligence / Machine Learning</strong>
-        time: 08/2021 – 12/2021
+        time: <em>08/2021 – 12/2021</em>
         company: Lincoln University, New Zealand
         details: |
             <p><span>&#45;</span> Acquiring data from primary and secondary sources and maintaining data systems. 
@@ -129,7 +129,7 @@ experiences:
             <p><span>&#45;</span> Software coding (Python, Matlab and Excel) for Data Analysis and Data Visualization.
             <p><span>&#45;</span> Analysed outcomes and wrote research papers and reports.
       - role: <strong>PhD student, Dean’s List </strong>
-        time:  04/2017 – 08/2021
+        time:  <em>04/2017 – 08/2021</em>
         company: Lincoln University, New Zealand
         details: |
             Project: Autonomous Self-repair Systems 
@@ -140,7 +140,7 @@ experiences:
             <p><span>&#45;</span> Wrote report results, research papers and thesis. 
             <p><span>&#45;</span> Reviewed some research papers for journals and conferences.
       - role: <strong>Data Analyst – Artificial Intelligence / Machine Learning</strong>
-        time:  09/2019 – 12/2019 
+        time:  <em>09/2019 – 12/2019 </em>
         company: Lincoln University, New Zealand
         details: |
             Project: Applied Neural Networks to analyse biological tissues
@@ -214,11 +214,11 @@ projects:
 publications:
     title: Best publications
     intro: |
-        1.	Sandhya Samarasinghe, <strong>T. N. Minh-Thai</strong>, A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration of Form and Function in Biological Organisms, PNAS Nexus, 2023;, pgac308, https://doi.org/10.1093/pnasnexus/pgac308. Q1, IF= 12.779.
-        2.	<strong>T. N. Minh-Thai</strong>, Sandhya Samarasinghe, Michael Levin: A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration Systems. 	Article in Artificial Life. 2021; MIT Press. DOI: https://doi.org/10.1162/artl_a_00343. Q3. 
-        3.	<strong>T. N. Minh-Thai</strong>, Aryal J., Samarasinghe S., Levin M. (2018) A Computational Framework for Autonomous Self-repair Systems. In: Mitrovic T., Xue B., Li X. (eds) AI 2018: Advances in Artificial Intelligence. AI 2018. Lecture Notes in Computer Science, vol 11320. Springer, Cham. 
-        4.	<strong>T. N. Minh-Thai</strong> and Nguyen Thai-Nghe. (2015). An Approach for Developing Intelligent Systems in Smart Home Environment. In: Dang T., Wagner R., Küng J., Thoai N., Takizawa M., Neuhold E. (eds) Future Data and Security Engineering. FDSE 2015. Lecture Notes in Computer Science, pp 147-161, vol 9446. Springer, Cham. 
-        5.	<strong>T. N. Minh-Thai</strong> and Nguyen Thai-Nghe. (2015). Methods for Abnormal Usage Detection in Developing Intelligent Systems for Smart Homes. In Proceedings of the 2015 Seventh International Conference on Knowledge and Systems Engineering (KSE 2015). pp. 114-119, ISBN 978-1-4673-8013-3, IEEE.
+        1.	Sandhya Samarasinghe, <strong>T. N. Minh-Thai</strong>, A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration of Form and Function in Biological Organisms, PNAS Nexus, 2023;, pgac308, https://doi.org/10.1093/pnasnexus/pgac308. <strong>Q1, IF= 12.779.</strong>
+        2.	<strong>T. N. Minh-Thai</strong>, Sandhya Samarasinghe, Michael Levin: A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration Systems. 	Article in Artificial Life. 2021; MIT Press. DOI: https://doi.org/10.1162/artl_a_00343. <strong>Q3</strong>. 
+        3.	<strong>T. N. Minh-Thai</strong>, Aryal J., Samarasinghe S., Levin M. (2018) A Computational Framework for Autonomous Self-repair Systems. In: Mitrovic T., Xue B., Li X. (eds) AI 2018: Advances in Artificial Intelligence. AI 2018. Lecture Notes in Computer Science, vol 11320. <strong>Springer, Cham. </strong>
+        4.	<strong>T. N. Minh-Thai</strong> and Nguyen Thai-Nghe. (2015). An Approach for Developing Intelligent Systems in Smart Home Environment. In: Dang T., Wagner R., Küng J., Thoai N., Takizawa M., Neuhold E. (eds) Future Data and Security Engineering. FDSE 2015. Lecture Notes in Computer Science, pp 147-161, vol 9446. <strong>Springer, Cham. </strong>
+        5.	<strong>T. N. Minh-Thai</strong> and Nguyen Thai-Nghe. (2015). Methods for Abnormal Usage Detection in Developing Intelligent Systems for Smart Homes. In Proceedings of the 2015 Seventh International Conference on Knowledge and Systems Engineering (KSE 2015). pp. 114-119, ISBN 978-1-4673-8013-3, <strong>IEEE.</strong>
 
     # papers:
       # - title: A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration of Form and Function in Biological Organisms. 
