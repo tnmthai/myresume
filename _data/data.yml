@@ -10,7 +10,7 @@ sidebar:
     # Sidebar links
     email: tnmthai@gmail.com
     #phone: 022 455 3617
-    #timezone: Auckland/New Zealand
+    timezone: Auckland/New Zealand
     #citizenship:
     #website: tnmthai.com #do not add http://
     linkedin: tnmthai
@@ -19,7 +19,7 @@ sidebar:
     #telegram: # add your nickname without '@' sign
     #gitlab:
     #bitbucket:
-    twitter: '@tnmthai'
+    twitter: 'tnmthai'
     #stack-overflow: # Number/Username, e.g. 123456/alandoe
     #codewars:
     #goodreads: # Number-Username, e.g. 123456-alandoe
