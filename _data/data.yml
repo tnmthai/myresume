@@ -197,13 +197,13 @@ oss:
     intro: >
       Geospatial analysis is a rapidly growing field that combines geography, spatial data and technology to provide insights into a wide range of applications. Whether you're analyzing urban planning, disaster response, or the spread of disease, geospatial analysis provides a unique perspective on complex problems. In this blog, we will explore the latest trends, techniques and tools in geospatial analysis, and how it is changing the way we understand the world around us.
     contributions:
-      - title: Spatial Programming & Remote Sensing
-        link: "#https://tnmthai.medium.com/spatial-programming-remote-sensing-6f0839ec3b03"
+      - title: 1. <a href="https://tnmthai.medium.com/spatial-programming-remote-sensing-6f0839ec3b03" class="underline" target="_blank" rel="noopener noreferrer">Spatial Programming & Remote Sensing</a>
+        link: "#"
         tagline: "Spatial programming and remote sensing are essential components of modern technology and are transforming the way we understand our world."
 
-      - title: Atom
+      - title: 2. <a href="https://tnmthai.medium.com/spatial-programming-remote-sensing-6f0839ec3b03" class="underline" target="_blank" rel="noopener noreferrer">Apply masks on Satellite Images</a>
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "When we use Satellite Imagery, they usually provide masks for clouds, water, etc. I will show you how to apply masks to remove water pixels from satellite images."
 
       # - title: Delta
         # link: "#"
