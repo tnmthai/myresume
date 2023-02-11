@@ -171,10 +171,10 @@ projects:
         <p><span>&#45;</span> Able to work well both individually and as part of a team. 
         <p><span>&#45;</span> A passion for learning, self-development, relationship-building skills, and new ways of working.
 
-    # assignments:
-      # - title: Velocity
-        # link: "#hook"
-        # tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
       # - title: DevStudio
         # link: "#"
@@ -226,16 +226,7 @@ publications:
         # authors: Sandhya Samarasinghe and T. N. Minh-Thai
         # conference: PNAS NEXUS - Oxford Academic. (Accepted 12/2022). Q1, IF= 12.779.
 
-      # - title: A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration Systems.
-        # link: "doi.org/10.1162/artl_a_00343"
-        # authors: T. N. Minh-Thai, Sandhya Samarasinghe, Michael Levin
-        # conference: Article in Artificial Life. 2021, MIT Press, DOI doi.org/10.1162/artl_a_00343, Q3.
-
-      # - title: A Computational Framework for Autonomous Self-repair Systems.
-        # link: "#"
-        # authors: T. N. Minh-Thai., Aryal J., Samarasinghe S., Levin M
-        # conference: In Mitrovic T., Xue B., Li X. (eds) AI 2018 - Advances in Artificial Intelligence. AI 2018. Lecture Notes in Computer Science, vol 11320. Springer, Cham. 
-
+      
 # skills:
     # title: Skills &amp; Proficiency
 
