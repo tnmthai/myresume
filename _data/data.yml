@@ -193,15 +193,13 @@ projects:
         # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-    title: OSS Contributions
+    title: Medium articles
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Geospatial analysis is a rapidly growing field that combines geography, spatial data and technology to provide insights into a wide range of applications. Whether you're analyzing urban planning, disaster response, or the spread of disease, geospatial analysis provides a unique perspective on complex problems. In this blog, we will explore the latest trends, techniques and tools in geospatial analysis, and how it is changing the way we understand the world around us.
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Spatial Programming & Remote Sensing
+        link: "#https://tnmthai.medium.com/spatial-programming-remote-sensing-6f0839ec3b03"
+        tagline: "Spatial programming and remote sensing are essential components of modern technology and are transforming the way we understand our world."
 
       - title: Atom
         link: "#"
