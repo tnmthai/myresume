@@ -201,13 +201,21 @@ oss:
         link: "#"
         tagline: "Spatial programming and remote sensing are essential components of modern technology and are transforming the way we understand our world."
 
-      - title: 2. <a href="https://tnmthai.medium.com/spatial-programming-remote-sensing-6f0839ec3b03" class="underline" target="_blank" rel="noopener noreferrer">Apply masks on Satellite Images</a>
+      - title: 2. <a href="https://tnmthai.medium.com/apply-masks-on-satellite-images-1e17e66d6473" class="underline" target="_blank" rel="noopener noreferrer">Apply masks on Satellite Images</a>
         link: "#"
         tagline: "When we use Satellite Imagery, they usually provide masks for clouds, water, etc. I will show you how to apply masks to remove water pixels from satellite images."
 
-      # - title: Delta
-        # link: "#"
-        # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: 3. <a href="https://tnmthai.medium.com/remove-photo-background-by-python-b7b14da30126" class="underline" target="_blank" rel="noopener noreferrer">Remove photo background by Python</a>
+        link: "#"
+        tagline: "Removing the background of an image using Python can be done using image processing and computer vision techniques. One popular method is using the OpenCV library, which provides a range of tools and functions for image processing and computer vision."
+
+      - title: 4. <a href="https://tnmthai.medium.com/watermark-photos-with-python-d8c14d9703af" class="underline" target="_blank" rel="noopener noreferrer">Watermark Photos with Python</a>
+        link: "#"
+        tagline: "To watermark photos using Python, you can use the Python Imaging Library (PIL) or OpenCV library. Both libraries provide tools for image processing and can be used to add a watermark to an image."
+
+      - title: 5. <a href="https://tnmthai.medium.com/chatgpt-api-with-python-e5690dace115" class="underline" target="_blank" rel="noopener noreferrer">ChatGPT API with Python</a>
+        link: "#"
+        tagline: "To use the OpenAI API with Python, you will need to use the OpenAI API client library, which provides a Python interface for the API. The API client library makes it easy to interact with the API, allowing you to send requests to the API and receive responses in a convenient and easy-to-use format."
 
 publications:
     title: Best publications
