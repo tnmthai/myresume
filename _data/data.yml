@@ -74,25 +74,13 @@ experiences:
         time: <em>05/2022 - Present</em>
         company: Lincoln Agritech Ltd., Lincoln, New Zealand.
         details: |
-            <p><span>&#45;</span> Good knowledge of GIS and remote sensing. Familiar with satellite and drone imagery.
-            <p><span>&#45;</span> Knew how to use different sources for downloading Sentinel imagery (SciHub, Google cloud, GEE). 
-            <p><span>&#45;</span> Geospatial data analysis: (including imagery acquisition, processing, analytics and modelling)
-                <p><span>&ensp; &#43;</span> Environment: Linux (Ubuntu and CentOS), Windows without/with WSL(for Ubuntu), macOS.
-                <p><span>&ensp; &#43;</span> Languages:  Python with rasterio, rasterstats, geopandas, geemap, gdal, Fiona, etc; R (sen2r).
-                <p><span>&ensp; &#43;</span> Modelling: Stats, confusion matrix, PCA, classification (Random Forest, K-NNC, SVM, etc. for vegetation and soil; land cover), clustering (K-Mean, SOM, etc.), change detection.
-                <p><span>&ensp; &#43;</span> Remote sensing systems: QGIS, ArcGIS, Sen2Agri, Sen2Cap, Sen2r, GEE and AgDataBox.
-                    <p><span>&emsp; &#8226;</span> Used Sen2Agri and Sen4Cap for imagery downloading, processing and monitoring on local and national scales.
-                    <p><span>&emsp; &#8226;</span> Used Sen2r: for imagery downloading, useful for images older than a year. 
-                    <p><span>&emsp; &#8226;</span> QGIS, ArcGIS and GEE: for preprocessing and analysing imagery.
-                    <p><span>&emsp; &#8226;</span> AgDataBox: Integration of data and software in precision agriculture.
-            <p><span>&#45;</span> Experience in using UAV eBeeX (RedEdge, Duet T and SODA 3D cameras) and Pix4D for processing UAV data.
-            <p><span>&#45;</span> Experience in ground measurement sensors: LAI + PAR plant sensor (LAI-2200C); Dualex Force-A, chlorophyll meter; GPS devices with RTK (e.g., Trimble R10); LiDAR (SICK LMS-511 PRO-HD).
-            <p><span>&#45;</span> Established workflows and/or Python codes for:
-                <p><span>&ensp; &#43;</span> Imagery downloading, processing (L1C to L2A products) and modelling.
-                <p><span>&ensp; &#43;</span> UAV data collecting, processing, display, masking, data extraction and modelling.
-                <p><span>&ensp; &#43;</span> File naming standards, folder structure and metadata aiming data management.
-            <p><span>&#45;</span> Cooperate, organise and manage the Workshops (labs).
-            <p><span>&#45;</span> Write reports and research papers.
+            <p><span>&#45;</span> Proficient in GIS, remote sensing, and geospatial data analysis.
+            <p><span>&#45;</span> Skilled in using a variety of software and tools, including QGIS, ArcGIS, GEE, etc. 
+            <p><span>&#45;</span> Experience in working with various sensors and equipment, including UAV eBeeX, Pix4D, LAI-2200C, Dualex Force-A, GPS devices, etc.
+            <p><span>&#45;</span> Established workflows and Python codes for imagery downloading, processing, and modelling, as well as for UAV data collecting, processing, and modelling.
+            <p><span>&#45;</span> Capable of organizing and managing workshops, as well as writing reports and research papers.
+            <p><span>&#45;</span> I have a strong knowledge of GIS and remote sensing, and I am familiar with using satellite and drone imagery. I know how to use different sources for downloading Sentinel imagery, including SciHub, Google cloud, and GEE. My experience in geospatial data analysis includes imagery acquisition, processing, analytics, and modelling.
+                
       - role: <strong>Research Technician</strong>
         time: <em>01/2022 - 04/2022</em>
         company: Bio-Protection Research Centre, Lincoln University
