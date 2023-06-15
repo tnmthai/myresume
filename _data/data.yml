@@ -12,7 +12,7 @@ sidebar:
     #phone: 022 455 3617
     timezone: Auckland/New Zealand
     #citizenship:
-    website: medium.com/@tnmthai/membership?source=publishing_settings---user_settings----------------------------------
+    
     linkedin: tnmthai
     #xing: alandoe
     github: tnmthai
@@ -23,8 +23,7 @@ sidebar:
     #stack-overflow: # Number/Username, e.g. 123456/alandoe
     #codewars:
     #goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://www.tnmthai.com/print
-    
+    pdf: https://medium.com/@tnmthai/membership?source=publishing_settings---user_settings----------------------------------
     languages:
       title: Languages
       info:
