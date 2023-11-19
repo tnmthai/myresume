@@ -12,10 +12,6 @@
     {{ career-profile.title }}
   </h2>
 
-  <!-- <div class="summary">
-    {{ career-profile.summary | markdownify }}
-  </div><!--//summary-->
-   -->
   <div class="summary" style="text-align: justify;">
     {% assign summary = career-profile.summary | capitalize_sentences %}
     {{ summary | markdownify }}
