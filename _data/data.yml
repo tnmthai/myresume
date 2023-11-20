@@ -84,7 +84,7 @@ experiences:
         time: <em>01/2022 - 04/2022</em>
         company: Bio-Protection Research Centre, Lincoln University
         details: |
-        
+            Responsibilities:
             <p><span>&#45;</span> Prepared equipment, materials, products, and specimens required for experiments.
             <p><span>&#45;</span> Gathered and organized field samples, including gas and soil, to support ongoing research endeavors.
             <p><span>&#45;</span> Conducted cleaning and filtration procedures on collected samples, ensuring their readiness for analysis.
@@ -96,49 +96,50 @@ experiences:
         time: <em>02/2022 - 04/2022</em>
         company: N3T, Whangārei, New Zealand
         details: |
-            <p><span>&#45;</span> Creating PDF reports.  
-            <p><span>&#45;</span> Performance tuning, UX improvements and UI development.
-            <p><span>&#45;</span> Interactive data visualization.
-            <p><span>&#45;</span> AWS handshake
-            <p><span>&#45;</span> Data Cleansing.
-            <p><span>&#45;</span> Statistical Analysis and Machine Learning.
-            <p><span>&#45;</span> Linking backend to React Frontend.
+            Responsibilities:
+            <p><span>&#45;</span> Generating PDF reports. 
+            <p><span>&#45;</span> Enhancing performance, improving user experience (UX), and developing the user interface (UI).
+            <p><span>&#45;</span> Designing interactive data visualizations.
+            <p><span>&#45;</span> Implementing AWS integration and setup.
+            <p><span>&#45;</span> Conducting data cleansing processes.
+            <p><span>&#45;</span> Performing statistical analysis and applying machine learning techniques.
+            <p><span>&#45;</span> Establishing connections between the backend and React frontend.
 
       - role: <strong>Postdoctoral in Artificial Intelligence / Machine Learning</strong>
         time: <em>08/2021 – 12/2021</em>
         company: Lincoln University, New Zealand
         details: |
-            <p><span>&#45;</span> Acquiring data from primary and secondary sources and maintaining data systems. 
-            <p><span>&#45;</span> Filtering, cleaning data, visualising raw data and output results. 
-            <p><span>&#45;</span> Identifying, analysing, and interpreting trends or patterns in complex data sets. 
-            <p><span>&#45;</span> Analysing data using statistical techniques and providing reports.
-            <p><span>&#45;</span> Adapted Neural Networks and Recurrent Neural Networks (RNN) to model cell cycles in biology.
-            <p><span>&#45;</span> Modified parameters of Neural Networks for training and testing data.
+            <p><span>&#45;</span> Gathering data from primary and secondary sources while maintaining data systems.
+            <p><span>&#45;</span> Processing data by filtering, cleaning, and visualizing raw data to generate actionable results.
+            <p><span>&#45;</span> Identifying, analyzing, and interpreting patterns or trends within intricate datasets.
+            <p><span>&#45;</span> Utilizing statistical techniques to analyze data and produce comprehensive reports.
+            <p><span>&#45;</span> Employing Neural Networks and Recurrent Neural Networks (RNN) to model cell cycles in biology, adapting and fine-tuning network parameters for training and testing data.
+            <p><span>&#45;</span> Conducting software coding (Python, MATLAB, and Excel) for data analysis and visualization purposes.
             <p><span>&#45;</span> Software coding (Python, Matlab and Excel) for Data Analysis and Data Visualization.
-            <p><span>&#45;</span> Analysed outcomes and wrote research papers and reports.
+            <p><span>&#45;</span> Analyzing outcomes and composing research papers and reports based on the findings.
       - role: <strong>PhD student, Dean’s List </strong>
         time:  <em>04/2017 – 08/2021</em>
         company: Lincoln University, New Zealand
         details: |
             Project: Autonomous Self-repair Systems 
-            <p><span>&#45;</span> Fine-tuning Neural Networks to model the self-repair of biological tissues and organisms.
-            <p><span>&#45;</span> Improved Hopfield Neural Networks to restore the function and structures of the organisms.
-            <p><span>&#45;</span> Proposed three self-repair algorithms for tissues, simple and complex organisms. 
-            <p><span>&#45;</span> Visualised outputs, completed programming and ran simulations (in Python).
-            <p><span>&#45;</span> Wrote report results, research papers and thesis. 
-            <p><span>&#45;</span> Reviewed some research papers for journals and conferences.
+            <p><span>&#45;</span> Optimized Neural Networks to simulate biological tissue and organism self-repair processes.
+            <p><span>&#45;</span> Enhanced Hopfield Neural Networks to facilitate the restoration of organism functions and structures.
+            <p><span>&#45;</span> Proposed three distinct self-repair algorithms tailored for tissues, simple organisms, and more complex organisms.
+            <p><span>&#45;</span> Visualized outputs, programmed, and executed simulations using Python.
+            <p><span>&#45;</span> Documented and summarized results in reports, research papers, and a thesis. 
+            <p><span>&#45;</span> Contributed to the review process of research papers for various journals and conferences.
       - role: <strong>Data Analyst – Artificial Intelligence / Machine Learning</strong>
         time:  <em>09/2019 – 12/2019 </em>
         company: Lincoln University, New Zealand
         details: |
-            Project: Applied Neural Networks to analyse biological tissues
-            <p><span>&#45;</span> Data entry, migration and preparation for analytics.
-            <p><span>&#45;</span> Used Hopfield Networks to hold the memory of biological tissues with many connection topologies. 
-            <p><span>&#45;</span> Explored the types of memory and their relevance to potential tissue function, the influence of connection topology and the persistence of memory in tissues. 
-            <p><span>&#45;</span> Explored discrete and continuous states on the Hopfield Networks.
-            <p><span>&#45;</span> Software coding for Data Analysis and Data Visualization.
-            <p><span>&#45;</span> Identified questions, and concepts and understood relevant neural network modelling.
-            <p><span>&#45;</span> Wrote report results and research papers. 
+            Project:  Neural Network Analysis of Biological Tissues
+            <p><span>&#45;</span> Managed data entry, migration, and preparation for analysis purposes.
+            <p><span>&#45;</span> Employed Hopfield Networks to retain memory in various connection topologies related to biological tissues.
+            <p><span>&#45;</span> Investigated different memory types and their impact on potential tissue function, considering the influence of connection topology and the durability of memory in tissues.
+            <p><span>&#45;</span> Explored discrete and continuous states within the Hopfield Networks.
+            <p><span>&#45;</span> Conducted software coding for both data analysis and data visualization.
+            <p><span>&#45;</span> Formulated critical questions, conceptualized ideas, and gained a comprehensive understanding of neural network modeling in relevance to the project.
+            <p><span>&#45;</span> Summarized findings in reports and research papers. 
 
         
 projects:
