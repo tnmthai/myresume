@@ -160,10 +160,11 @@ projects:
         <p><span>&#45;</span> Team Player: Capable of working independently and collaboratively within a team.
         <p><span>&#45;</span> Passion for Growth: Enthusiastic about learning, self-development, building relationships, and embracing innovative work methodologies.
 
-    # assignments:
-    #   - title: Velocity
-    #     link: "#hook"
-    #     tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    assignments:
+      - title: Professional Service
+        link: "#hook"
+        tagline: "Reviewer for The International Conference on Intelligent Systems and Data Science (ISDS) 2023."
+        tagline: "Reviewer for ​16th Asian Conference on Intelligent Information and Database Systems (ACIIDS) 2024."
 
       # - title: DevStudio
         # link: "#"
