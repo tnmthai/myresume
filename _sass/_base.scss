@@ -34,6 +34,7 @@ p {
 }
 
 .wrapper {
+  grid-column: span 6;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   background: $theme-color;
@@ -44,7 +45,7 @@ p {
 }
 
 .sidebar-wrapper {
-  grid-column: span 3;
+  grid-column: span 4;
   order: 2;
   background: $theme-color;
   color: #fff;
