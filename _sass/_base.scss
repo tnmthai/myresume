@@ -59,28 +59,28 @@ p {
     color: #fff;
   }
   .name {
-    font-size: 32px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: 700;
     margin-top: 0;
     margin-bottom: 10px;
   }
   .tagline {
     color: rgba(256, 256, 256, 0.6);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
   }
   .profile {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
   }
 
   .avatar {
     //used for profile image
-    max-width: 100px;
+    max-width: 90px;
     margin-bottom: 15px;
     border: 0px solid #fff;
-    border-radius: 100%;
+    border-radius: 90%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
   .contact-list {
