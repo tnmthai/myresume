@@ -45,14 +45,14 @@ p {
 
 .sidebar-wrapper {
   grid-column: span 3;
-  order: 0;
+  order: 1;
   background: $theme-color;
   color: #fff;
   a {
     color: #fff;
   }
   .profile-container {
-    padding: 30px;
+    padding: 28px;
     //background: darken($theme-color, 10%);
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -88,7 +88,7 @@ p {
     .fab,
     .far {
       margin-right: 5px;
-      font-size: 18px;
+      font-size: 15px;
       vertical-align: middle;
     }
     li {
@@ -99,7 +99,7 @@ p {
     }
   }
   .container-block {
-    padding: 30px;
+    padding: 28px;
   }
   .container-block-title {
     text-transform: uppercase;
@@ -109,13 +109,13 @@ p {
     margin-bottom: 15px;
   }
   .degree {
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 0;
     margin-bottom: 5px;
   }
   .education-container {
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 13px;
       &:last-child {
         margin-bottom: 0;
       }
