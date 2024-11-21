@@ -4,55 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Form</title>
-  <style>
-    /* Basic styling for the form */
-    form {
-      display: flex;
-      flex-direction: column;
-      width: 400px;
-      margin: 20px auto;
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    label {
-      margin-bottom: 5px;
-      font-weight: bold;
-    }
-    input[type="email"], input[type="file"] {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 3px;
-    }
-    button[type="submit"] {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <h1>Contact Me</h1>
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/mvgoqlkr"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-<!--     <textarea name="message"></textarea> -->
-    <textarea name="message" rows="10" required></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+  <form action="https://formspree.io/f/mvgoqlkr" method="POST">
+    <label>
+      <span>Your email:</span>
+      <input type="email" name="email" required>
+    </label>
+    <label>
+      <span>Your message:</span>
+      <textarea name="message" rows="10" required></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
 </body>
 </html>
