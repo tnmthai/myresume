@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #d0e8f2, #a9d6e5); /* Light blue gradient */
+    background: linear-gradient(135deg, #d0e8f2, #91c7e5); /* Blue gradient */
   }
 
   form {
@@ -69,11 +69,11 @@ body {
   }
 
   input[type="email"]:focus, textarea:focus {
-    border-color: #a9d6e5; /* Light blue focus */
+    border-color: #91c7e5; /* Light blue focus */
   }
 
   button {
-    background: #a9d6e5; /* Light blue button */
+    background: #91c7e5; /* Light blue button */
     border: none;
     color: #fff;
     font-size: 16px;
@@ -86,7 +86,7 @@ body {
   }
 
   button:hover {
-    background: #88c2d3; /* Darker blue for hover */
+    background: #78b0d3; /* Slightly darker blue for hover */
   }
 
   .emoji {
