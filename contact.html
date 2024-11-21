@@ -3,20 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Form</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <title>Contact Us 😊</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    }
+
+    form {
+      background: #ffffff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .form-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .form-header img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    .form-header h1 {
+      font-size: 22px;
+      margin: 0;
+      color: #333;
+    }
+
+    .form-header p {
+      color: #666;
+      font-size: 14px;
+      margin: 5px 0 0;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    form label span {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    input[type="email"], textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+      outline: none;
+      transition: border-color 0.3s ease;
+    }
+
+    input[type="email"]:focus, textarea:focus {
+      border-color: #fbc2eb;
+    }
+
+    button {
+      background: #fbc2eb;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      padding: 10px 15px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background: #f68acb;
+    }
+
+    .emoji {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    @media (max-width: 480px) {
+      form {
+        padding: 15px 20px;
+      }
+    }
+  </style>
 </head>
 <body>
   <form action="https://formspree.io/f/mvgoqlkr" method="POST">
+    <div class="form-header">
+      <img src="https://i.imgur.com/6oLu5Lh.png" alt="Mail Icon" />
+      <h1>Contact Us 😄</h1>
+      <p>We'd love to hear from you!</p>
+    </div>
     <label>
-      <span>Your email:</span>
-      <input type="email" name="email" required>
+      <span>Your Email 📨:</span>
+      <input type="email" name="email" placeholder="Enter your email" required>
     </label>
     <label>
-      <span>Your message:</span>
-      <textarea name="message" rows="10" required></textarea>
+      <span>Your Message ✍️:</span>
+      <textarea name="message" rows="6" placeholder="Write your message here..." required></textarea>
     </label>
-    <button type="submit">Send</button>
+    <button type="submit">🚀 Send Message</button>
+    <div class="emoji">🌟✨💌</div>
   </form>
 </body>
 </html>
