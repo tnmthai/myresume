@@ -6,7 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    
+    background: linear-gradient(135deg, #d0e8f2, #a9d6e5); /* Light blue gradient */
   }
 
   form {
