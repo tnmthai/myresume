@@ -3,8 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
   <title>Send me a message! 😊</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f8ff;
+    }
+
+    nav {
+      background-color: #004aad; /* Dark blue for menu bar */
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ffeb3b; /* Yellow on hover */
+    }
+
+    form {
+      background: #ffffff;
+      margin: 30px auto;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .form-header {
+      margin-bottom: 20px;
+    }
+
+    .form-header img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    .form-header h1 {
+      font-size: 22px;
+      color: #333;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    form label span {
+      display: block;
+      font-weight: bold;
+      color: #333;
+    }
+
+    input[type="email"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      outline: none;
+    }
+
+    button {
+      background: #004aad; /* Dark blue for button */
+      color: white;
+      font-size: 16px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background: #002b6b; /* Darker blue for hover */
+    }
+
+    .emoji {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
@@ -12,9 +119,7 @@
       <li><a href="/ical">Lunar Calendar</a></li>
       <li><a href="/contact">Contact</a></li>
     </ul>
-    </nav>
-
-
+  </nav>
 
   <form action="https://formspree.io/f/mvgoqlkr" method="POST">
     <div class="form-header">
@@ -33,5 +138,5 @@
     <button type="submit">🚀 Send Message</button>
     <div class="emoji">🌟✨💌</div>
   </form>
-</head>
+</body>
 </html>
