@@ -172,6 +172,8 @@ projects:
 
     Projects:
       - title: Projects
+        intro: >   
+          <strong>Reviewer:</strong>
         link: "#hook"
         tagline: "Development of a High-Accuracy Rice Identification Tool for the Mekong Delta Region in Vietnam: A Case Study of Dong Thap Province."
         tagline: "Funded by ESA"
