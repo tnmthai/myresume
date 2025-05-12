@@ -15,8 +15,11 @@
       <p>{{ projects.intro }}</p>
   </div><!--//intro-->
   {% endif %}
+
+  {% if projects.subtitle %}
+  <h3 class="section-subtitle">{{ projects.subtitle }}</h3>
+  {% endif %}
   
-  <h3 class="section-subtitle">Projects</h3>
   {% for project in projects.assignments %}
     <div class="item">
 
@@ -34,7 +37,6 @@
 
     </div><!--//item-->
   {% endfor %}
-
 
 </section><!--//section-->
 {% endif %}
