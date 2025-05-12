@@ -171,10 +171,10 @@ projects:
         <p><span>&#45;</span> The 1st International Conference on Intelligent Systems and Data Science (ISDS) 2023.
 
     assignments:
-      - title: Projects
-        link: "#hook"
-        tagline: "Development of a High-Accuracy Rice Identification Tool for the Mekong Delta Region in Vietnam: A Case Study of Dong Thap Province."
-        tagline: "Funded by ESA"
+      - title: "High-Accuracy Rice Identification Tool"
+        link: "#hook"        
+        abstract: "Development of a High-Accuracy Rice Identification Tool for the Mekong Delta Region in Vietnam: A Case Study of Dong Thap Province. Funded by ESA."
+
 
       # - title: DevStudio
         # link: "#"
