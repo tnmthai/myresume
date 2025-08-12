@@ -49,8 +49,8 @@ sidebar:
 career-profile:
     title: About me
     summary: |            
-      <p><span>&#45;</span> PhD in Computer Science (Lincoln University, NZ, 2021) with research mentorship from Lincoln University and Harvard’s Wyss Institute. I specialize in GeoAI, combining artificial intelligence, GIS, and remote sensing to solve environmental and agricultural challenges.
-      <p><span>&#45;</span> Skilled in QGIS, ArcGIS, Google Earth Engine, and Python, I process and analyze satellite (Sentinel-2, Planet) and UAV (eBeeX) imagery for applications like crop health monitoring, irrigation detection, and automated image analysis. Passionate about transforming spatial data into actionable insights.
+      <p><span>&#45;</span> PhD in Computer Science (Lincoln University, NZ, 2021) with research mentorship from Lincoln University and Harvard’s Wyss Institute. I specialise in GeoAI, combining artificial intelligence, GIS, and remote sensing to solve environmental and agricultural challenges.
+      <p><span>&#45;</span> Skilled in QGIS, ArcGIS, Google Earth Engine, and Python, I process and analyse satellite (Sentinel-2, Planet) and UAV (eBeeX) imagery for applications like crop health monitoring, irrigation detection, and automated image analysis. Passionate about transforming spatial data into actionable insights.
 education:
     title: Education
     info:
