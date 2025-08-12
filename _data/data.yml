@@ -3,8 +3,8 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Thai Tran
-    tagline: PhD in Computer Science & Information Systems
+    name: Thai Tran, PhD
+    tagline: GeoAI & Geospatial Data Scientist
     avatar: 'thai.png'  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     blood: 'blood.svg'
     # Sidebar links
@@ -49,8 +49,8 @@ sidebar:
 career-profile:
     title: About me
     summary: |            
-      <p><span>&#45;</span> Thai Tran earned a PhD in Computer Science from Lincoln University, New Zealand in 2021. His supervisors included Professors Sandhya Samarasinghe and Don Kulasiri (Lincoln University) and Distinguished Professor Michael Levin (Wyss Institute, Harvard, and Tufts University).
-      <p><span>&#45;</span> Since 2022, Thai Tran has been a Geospatial Research Assistant at Lincoln Agritech Ltd., New Zealand, specializing in GIS, remote sensing, and geospatial data analysis. He works with tools like QGIS, ArcGIS, and Google Earth Engine, manages UAVs like eBeeX, and develops workflows and Python scripts for imagery processing. His expertise spans satellite and drone imagery analysis, workshop facilitation, and technical reporting, with a focus on environmental and agricultural applications.
+      <p><span>&#45;</span> PhD in Computer Science (Lincoln University, NZ, 2021) with research mentorship from Lincoln University and Harvard’s Wyss Institute. I specialize in GeoAI, combining artificial intelligence, GIS, and remote sensing to solve environmental and agricultural challenges.
+      <p><span>&#45;</span> Skilled in QGIS, ArcGIS, Google Earth Engine, and Python, I process and analyze satellite (Sentinel-2, Planet) and UAV (eBeeX) imagery for applications like crop health monitoring, irrigation detection, and automated image analysis. Passionate about transforming spatial data into actionable insights.
 education:
     title: Education
     info:
