@@ -2,26 +2,13 @@
 layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="Remote sensing, GIS, Geospatial Analysis, Gdal, Rasterio, Fiona, Shapefile, raster, shapely, Sentinel 2, Satellite Imagery, medium articles">
-	  <title>Thai Tran - Home</title>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="/medium">Blog</a></li>
-        <li><a href="/ical">Lunar Calendar</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="https://map.tnmthai.com" target="_blank">Maps</a></li>
-        <li><a href="code.html"">Codes</a></li>
-      </ul>
-      </nav>
-  </head>
-
-
-{% include head.html %}
+<section class="section" style="padding-bottom: 8px;">
+  <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom: 8px;">
+    <a href="mailto:me@tnmthai.com" style="background:#2d7788;color:#fff;padding:8px 12px;border-radius:6px;text-decoration:none;">Email me for research roles</a>
+    <a href="https://www.linkedin.com/in/tnmthai" target="_blank" style="border:1px solid #2d7788;color:#2d7788;padding:8px 12px;border-radius:6px;text-decoration:none;">LinkedIn</a>
+    <a href="/for-hiring.html" style="border:1px solid #2d7788;color:#2d7788;padding:8px 12px;border-radius:6px;text-decoration:none;">For Hiring (90-day value)</a>
+  </div>
+</section>
 
 {% include career-profile.html %}
 
@@ -30,12 +17,7 @@ layout: default
 {% endunless %}
 
 {% include experiences.html %}
-
 {% include projects.html %}
-
 {% include publications.html %}
-
 {% include skills.html %}
-
 {% include oss-contributions.html %}
-</html>
