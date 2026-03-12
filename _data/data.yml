@@ -12,7 +12,7 @@ sidebar:
     #phone: 022 455 3617
     timezone: Auckland/New Zealand
     #citizenship:
-    
+
     linkedin: tnmthai
     #xing: alandoe
     github: tnmthai
@@ -37,7 +37,7 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Photographer (Iphone, Canon, GoPro) 
+        - item: Photographer (Iphone, Canon, GoPro)
           link:
 
 
@@ -70,81 +70,58 @@ experiences:
     info:
       - role: <strong>Geospatial Research Assistant</strong>
         time: <em>05/2022 - 10/2025</em>
-        company: Lincoln Agritech Ltd., Lincoln, New Zealand.
+        company: Lincoln Agritech Ltd., Lincoln, New Zealand
         details: |
-            <p><span>&#45;</span> Proficiency in GIS, remote sensing, and geospatial data analysis.
-            <p><span>&#45;</span> Skillful utilization of diverse software and tools such as QGIS, ArcGIS, GEE, among others. 
-            <p><span>&#45;</span> Hands-on experience with a range of sensors and equipment like UAV eBeeX, Pix4D, LAI-2200C, Dualex Force-A, GPS devices, etc.
-            <p><span>&#45;</span> Developed workflows and Python scripts for imagery downloading, processing, and modeling. Additionally, created processes for UAV data collection, processing, and modeling.
-            <p><span>&#45;</span> Proficient in organizing and managing workshops, as well as adept at report and research paper writing.
-            <p><span>&#45;</span> Possesses extensive knowledge in GIS and remote sensing, with familiarity in using satellite and drone imagery. Skilled in sourcing Sentinel imagery from multiple platforms including SciHub, Google Cloud, and GEE. Experience includes geospatial data analysis encompassing imagery acquisition, processing, analytics, and modeling.
-                
+            <p><span>&#45;</span> Delivered end-to-end GIS and remote sensing workflows using <strong>QGIS, ArcGIS, Google Earth Engine, and Python</strong>.
+            <p><span>&#45;</span> Built reproducible pipelines for satellite and UAV imagery acquisition, preprocessing, modelling, and reporting.
+            <p><span>&#45;</span> Worked with multi-source EO data (Sentinel-2 and UAV platforms such as eBeeX/Pix4D) to support applied research and operational decisions.
+            <p><span>&#45;</span> Produced technical reports, workshop materials, and research outputs for mixed technical/non-technical stakeholders.
+
       - role: <strong>Research Technician</strong>
         time: <em>01/2022 - 04/2022</em>
         company: Bio-Protection Research Centre, Lincoln University
         details: |
-            Responsibilities:
-            <p><span>&#45;</span> Prepared equipment, materials, products, and specimens required for experiments.
-            <p><span>&#45;</span> Gathered and organized field samples, including gas and soil, to support ongoing research endeavors.
-            <p><span>&#45;</span> Conducted cleaning and filtration procedures on collected samples, ensuring their readiness for analysis.
-            <p><span>&#45;</span> Implemented and executed field experiments, overseeing the setup and monitoring of procedures.
-            <p><span>&#45;</span> Maintained and managed laboratory facilities, ensuring their functionality for both research and educational purposes.
+            <p><span>&#45;</span> Supported field and lab experiments by preparing equipment, materials, and experimental setups.
+            <p><span>&#45;</span> Collected, organised, and quality-checked gas/soil field samples for downstream analysis.
+            <p><span>&#45;</span> Maintained laboratory and field operation readiness across concurrent research activities.
 
-
-      - role: <strong>Statistical Analysis and Machine Learning</strong>
+      - role: <strong>Statistical Analysis and Machine Learning Consultant</strong>
         time: <em>02/2022 - 04/2022</em>
         company: N3T, Whangārei, New Zealand
         details: |
-            Responsibilities:
-            <p><span>&#45;</span> Generating PDF reports. 
-            <p><span>&#45;</span> Enhancing performance, improving user experience (UX), and developing the user interface (UI).
-            <p><span>&#45;</span> Designing interactive data visualizations.
-            <p><span>&#45;</span> Implementing AWS integration and setup.
-            <p><span>&#45;</span> Conducting data cleansing processes.
-            <p><span>&#45;</span> Performing statistical analysis and applying machine learning techniques.
-            <p><span>&#45;</span> Establishing connections between the backend and React frontend.
+            <p><span>&#45;</span> Performed data cleansing, statistical analysis, and machine learning experiments for product analytics.
+            <p><span>&#45;</span> Developed data visualisations and PDF reporting workflows for decision support.
+            <p><span>&#45;</span> Contributed to backend-frontend integration and AWS-based deployment setup.
 
-      - role: <strong>Postdoctoral in Artificial Intelligence / Machine Learning</strong>
+      - role: <strong>Postdoctoral Researcher (AI / Machine Learning)</strong>
         time: <em>08/2021 – 12/2021</em>
         company: Lincoln University, New Zealand
         details: |
-            <p><span>&#45;</span> Gathering data from primary and secondary sources while maintaining data systems.
-            <p><span>&#45;</span> Processing data by filtering, cleaning, and visualizing raw data to generate actionable results.
-            <p><span>&#45;</span> Identifying, analyzing, and interpreting patterns or trends within intricate datasets.
-            <p><span>&#45;</span> Utilizing statistical techniques to analyze data and produce comprehensive reports.
-            <p><span>&#45;</span> Employing Neural Networks and Recurrent Neural Networks (RNN) to model cell cycles in biology, adapting and fine-tuning network parameters for training and testing data.
-            <p><span>&#45;</span> Conducting software coding (Python, MATLAB, and Excel) for data analysis and visualization purposes.
-            <p><span>&#45;</span> Software coding (Python, Matlab and Excel) for Data Analysis and Data Visualization.
-            <p><span>&#45;</span> Analyzing outcomes and composing research papers and reports based on the findings.
-      - role: <strong>PhD student, Dean’s List </strong>
-        time:  <em>04/2017 – 08/2021</em>
-        company: Lincoln University, New Zealand
-        details: |
-            Project: Autonomous Self-repair Systems 
-            <p><span>&#45;</span> Optimized Neural Networks to simulate biological tissue and organism self-repair processes.
-            <p><span>&#45;</span> Enhanced Hopfield Neural Networks to facilitate the restoration of organism functions and structures.
-            <p><span>&#45;</span> Proposed three distinct self-repair algorithms tailored for tissues, simple organisms, and more complex organisms.
-            <p><span>&#45;</span> Visualized outputs, programmed, and executed simulations using Python.
-            <p><span>&#45;</span> Documented and summarized results in reports, research papers, and a thesis. 
-            <p><span>&#45;</span> Contributed to the review process of research papers for various journals and conferences.
-      - role: <strong>Data Analyst – Artificial Intelligence / Machine Learning</strong>
-        time:  <em>09/2019 – 12/2019 </em>
-        company: Lincoln University, New Zealand
-        details: |
-            Project:  Neural Network Analysis of Biological Tissues
-            <p><span>&#45;</span> Managed data entry, migration, and preparation for analysis purposes.
-            <p><span>&#45;</span> Employed Hopfield Networks to retain memory in various connection topologies related to biological tissues.
-            <p><span>&#45;</span> Investigated different memory types and their impact on potential tissue function, considering the influence of connection topology and the durability of memory in tissues.
-            <p><span>&#45;</span> Explored discrete and continuous states within the Hopfield Networks.
-            <p><span>&#45;</span> Conducted software coding for both data analysis and data visualization.
-            <p><span>&#45;</span> Formulated critical questions, conceptualized ideas, and gained a comprehensive understanding of neural network modeling in relevance to the project.
-            <p><span>&#45;</span> Summarized findings in reports and research papers. 
+            <p><span>&#45;</span> Built and analysed neural-network models (including RNN-based approaches) for biological system dynamics.
+            <p><span>&#45;</span> Implemented data processing, modelling, and visualisation in Python/MATLAB to generate research-grade outputs.
+            <p><span>&#45;</span> Translated analytical findings into papers, reports, and technical documentation.
 
-        
+      - role: <strong>PhD Candidate (Dean’s List)</strong>
+        time: <em>04/2017 – 08/2021</em>
+        company: Lincoln University, New Zealand
+        details: |
+            <p><span>&#45;</span> Researched autonomous self-repair systems using neural-network-based computational frameworks.
+            <p><span>&#45;</span> Designed and evaluated multiple algorithmic approaches for tissue/organism regeneration modelling.
+            <p><span>&#45;</span> Published research outputs and contributed peer-review service to journals and conferences.
+
+      - role: <strong>Data Analyst (AI / Machine Learning)</strong>
+        time: <em>09/2019 – 12/2019</em>
+        company: Lincoln University, New Zealand
+        details: |
+            <p><span>&#45;</span> Prepared and structured datasets for neural-network analysis of biological tissues.
+            <p><span>&#45;</span> Implemented modelling and visualisation workflows to examine memory and topology effects in Hopfield networks.
+            <p><span>&#45;</span> Synthesised findings into technical reports and publication-ready research content.
+
+
 projects:
     title: Skills &amp; Proficiency
     intro: >
-      
+
         <strong>Technical skills:</strong>
         <p><span>&#45;</span> Programming Languages: Python: 6+ years focusing on data preprocessing and analysis; 1 year specializing in geospatial data. Proficient in R for image acquisition and statistics. Competent in C/C++ for algorithm development.
         <p><span>&#45;</span> Relational Databases: Over 5 years of practical experience in SQL, PL/SQL, T-SQL, and PL/pgSQL.
@@ -161,12 +138,12 @@ projects:
 projects:
     title: Selected GeoAI / Remote Sensing Projects
     intro: >
-      I design operational geospatial systems that translate Earth observation data into decisions cities and organisations can execute. 
+      I design operational geospatial systems that translate Earth observation data into decisions cities and organisations can execute.
       I am currently open to roles in <strong>GIS Research, Remote Sensing Science, and Climate Risk Analytics</strong>.
     assignments:
       - title: Extreme Heat Resilience Decision System (TLC 2026 submission)
         link: "#"
-        abstract: "Built a neighbourhood-level heat-risk workflow combining satellite EO, weather inputs, and local vulnerability layers for 24–72h action planning. Target outcomes: 2–5°C hotspot cooling, >=20% reduction in heat-exposure hours, and 10–25% cooling-energy reduction in intervention sites."
+        abstract: "Built a neighbourhood-level heat-risk workflow combining satellite EO, weather inputs, and local vulnerability layers for 24-72h action planning. Target outcomes: 2-5°C hotspot cooling, >=20% reduction in heat-exposure hours, and 10-25% cooling-energy reduction in intervention sites."
 
       - title: High-Accuracy Rice Identification Tool (ESA-funded case study, Dong Thap)
         link: "#"
@@ -217,17 +194,17 @@ publications:
 
     # papers:
     # <strong>Thai Tran</strong> earned a PhD in Computer Science from Lincoln University in New Zealand, completing his successful oral exam on July 13, 2021. Throughout his academic journey, he was under the guidance of Professor <a href="https://researchers.lincoln.ac.nz/sandhya.samarasinghe" class="underline" target="_blank" rel="noopener noreferrer"><b>Sandhya Samarasinghe</b></a> and Professor <a href="https://researchers.lincoln.ac.nz/don.kulasiri" class="underline" target="_blank" rel="noopener noreferrer"><b>Don Kulasiri</b></a> from Lincoln University, along with Distinguished Professor <a href="https://ase.tufts.edu/biology/labs/levin/" class="underline" target="_blank" rel="noopener noreferrer"><b>Michael Levin</b></a> from the Wyss Institute at Harvard and Tufts University in the USA.
-      # - title: A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration of Form and Function in Biological Organisms. 
+      # - title: A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration of Form and Function in Biological Organisms.
         # link:
         # authors: Sandhya Samarasinghe and T. N. Minh-Thai
         # conference: PNAS NEXUS - Oxford Academic. (Accepted 12/2022). Q1, IF= 12.779.
 
-      
+
 # skills:
     # title: Skills &amp; Proficiency
 
     # toolset:
-      # - name: Python 
+      # - name: Python
         # level: 98%
 
       # - name: SQL
