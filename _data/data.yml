@@ -141,7 +141,7 @@ projects:
       I design operational geospatial systems that translate Earth observation data into decisions cities and organisations can execute.
       I am currently open to roles in <strong>GIS Research, Remote Sensing Science, and Climate Risk Analytics</strong>.
     assignments:
-      - title: Extreme Heat Resilience Decision System (TLC 2026 submission)
+      - title: Extreme Heat Resilience Decision System (On going)
         link: "#"
         abstract: "Built a neighbourhood-level heat-risk workflow combining satellite EO, weather inputs, and local vulnerability layers for 24-72h action planning. Target outcomes: 2-5°C hotspot cooling, >=20% reduction in heat-exposure hours, and 10-25% cooling-energy reduction in intervention sites."
 
