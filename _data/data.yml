@@ -153,6 +153,10 @@ projects:
         link: "#"
         abstract: "Developed Python-based pipelines for imagery download, preprocessing, feature extraction, and reporting from Sentinel and UAV datasets to improve reproducible agronomic analysis."
 
+      - title: Bucket Test from Space (PI)
+        link: "#"
+        abstract: "Developed an AI tool using satellite imagery to detect irrigation issues and improve farm water efficiency."
+
       - title: Geospatial Capacity Building and Applied Research Delivery
         link: "#"
         abstract: "Led workshops, technical documentation, and collaborative implementation across researchers, field teams, and stakeholders to convert GeoAI outputs into operational decisions."
