@@ -1,224 +1,199 @@
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: True
+    education: True
 
     # Profile information
     name: Thai Tran, PhD
-    tagline: GeoAI & Geospatial Data Scientist
-    avatar: 'thai.png'  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: GIS & Remote Sensing Specialist
+    avatar: 'thai.png'
     blood: 'blood.svg'
+
     # Sidebar links
     email: me@tnmthai.com
-    #phone: 022 455 3617
+    phone: '+64 22 455 3617'
     timezone: Auckland/New Zealand
-    #citizenship:
+    location: Canterbury, New Zealand
 
     linkedin: tnmthai
-    #xing: alandoe
     github: tnmthai
-    #telegram: # add your nickname without '@' sign
-    #gitlab:
-    #bitbucket:
     twitter: 'tnmthai'
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
-    #codewars:
-    #goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: https://medium.com/subscribe/@geo-ai?source=publishing_settings---user_settings----------------------------------
+
     languages:
       title: Languages
       info:
         - idiom: Vietnamese
           level: Native
-
         - idiom: English
           level: Professional
-
 
     interests:
       title: Interests
       info:
-        - item: Photographer (Iphone, Canon, GoPro)
+        - item: Photographer (iPhone, Canon, GoPro)
           link:
-
-
         - item: Play games (Chess and Rummikub)
           link:
 
 career-profile:
-    title: About me
+    title: About Me
     summary: |
-      <p><span>&#45;</span> I am a PhD-trained GeoAI researcher (Lincoln University, NZ) focused on <strong>GIS, Remote Sensing, and climate-risk applications</strong>. My work connects Earth observation data with practical interventions in urban resilience and environmental management.
-      <p><span>&#45;</span> I work across <strong>QGIS, ArcGIS, Google Earth Engine, Python, and geospatial analytics pipelines</strong> to build end-to-end workflows: from data ingestion and modelling to decision-ready outputs.
-      <p><span>&#45;</span> I am currently seeking roles as a <strong>GIS Researcher / Remote Sensing Scientist / Geospatial Data Scientist</strong>, with a focus on delivering measurable, decision-ready outcomes.
+      <p><span>&#45;</span> <strong>GIS and Remote Sensing specialist</strong> with 15+ years in geospatial analysis, enterprise GIS, and applied research. PhD in Computer Science (Dean's List) with 6 peer-reviewed publications.
+      <p><span>&#45;</span> Experienced in <strong>ArcGIS Pro, QGIS, Python, SQL Server, Google Earth Engine, Pix4D, and UAV operations</strong>. Delivered location intelligence products for government agencies, defence, renewable energy, and environmental clients.
+      <p><span>&#45;</span> Strong track record in <strong>client engagement, proposal writing, technical documentation, and stakeholder communication</strong> across consulting, research, and academic environments.
+      <p><span>&#45;</span> Currently seeking <strong>GIS Analyst / Remote Sensing Scientist / Geospatial Data Scientist</strong> roles in Australia or New Zealand.
+
 education:
     title: Education
     info:
-      - degree: PhD in Information Systems and Computer Science (Dean's List)
-        university: Lincoln University - New Zealand
-        time: 2017 - 2021
+      - degree: PhD in Computer Science (Dean's List)
+        university: Lincoln University — New Zealand
+        time: 2017 – 2021
         details: |
-          Comprehensive Conceptual and Computational Dynamics Frameworks for Autonomous Regeneration and Bioelectric Homeostasis in Biological Systems
+          Full PhD Scholarship (Ministry of Education and Training, Vietnam). Research: autonomous regeneration systems using neural-network-based computational frameworks. Supervised by Prof. Sandhya Samarasinghe and Prof. Don Kulasiri, with collaboration from Prof. Michael Levin (Harvard/Tufts).
 
       - degree: Master of Science in Computer Science and Engineering
-        university: National Chiao Tung University - Taiwan
-        time: 2012 - 2014
+        university: National Chiao Tung University — Taiwan
+        time: 2012 – 2014
         details: |
-          Methods for Abnormal Usage Detection in Developing Intelligent Systems for Smart Homes
+          Full MSc Scholarship. Focus: Data Mining, AI, and Machine Learning. Thesis: Methods for Abnormal Usage Detection in Smart Home Systems.
 
 experiences:
-    title: Experiences
+    title: Professional Experience
     info:
-      - role: <strong>Geospatial Research Assistant</strong>
-        time: <em>05/2022 - 10/2025</em>
-        company: Lincoln Agritech Ltd., Lincoln, New Zealand
-        details: |
-            <p><span>&#45;</span> Delivered end-to-end GIS and remote sensing workflows using <strong>QGIS, ArcGIS, Google Earth Engine, and Python</strong>.
-            <p><span>&#45;</span> Built reproducible pipelines for satellite and UAV imagery acquisition, preprocessing, modelling, and reporting.
-            <p><span>&#45;</span> Worked with multi-source EO data (Sentinel-2 and UAV platforms such as eBeeX/Pix4D) to support applied research and operational decisions.
-            <p><span>&#45;</span> Produced technical reports, workshop materials, and research outputs for mixed technical/non-technical stakeholders.
-
       - role: <strong>Research Technician</strong>
-        time: <em>01/2022 - 04/2022</em>
-        company: Bio-Protection Research Centre, Lincoln University
-        details: |
-            <p><span>&#45;</span> Supported field and lab experiments by preparing equipment, materials, and experimental setups.
-            <p><span>&#45;</span> Collected, organised, and quality-checked gas/soil field samples for downstream analysis.
-            <p><span>&#45;</span> Maintained laboratory and field operation readiness across concurrent research activities.
-
-      - role: <strong>Statistical Analysis and Machine Learning Consultant</strong>
-        time: <em>02/2022 - 04/2022</em>
-        company: N3T, Whangārei, New Zealand
-        details: |
-            <p><span>&#45;</span> Performed data cleansing, statistical analysis, and machine learning experiments for product analytics.
-            <p><span>&#45;</span> Developed data visualisations and PDF reporting workflows for decision support.
-            <p><span>&#45;</span> Contributed to backend-frontend integration and AWS-based deployment setup.
-
-      - role: <strong>Postdoctoral Researcher (AI / Machine Learning)</strong>
-        time: <em>08/2021 – 12/2021</em>
+        time: <em>11/2025 – Present</em>
         company: Lincoln University, New Zealand
         details: |
-            <p><span>&#45;</span> Built and analysed neural-network models (including RNN-based approaches) for biological system dynamics.
-            <p><span>&#45;</span> Implemented data processing, modelling, and visualisation in Python/MATLAB to generate research-grade outputs.
-            <p><span>&#45;</span> Translated analytical findings into papers, reports, and technical documentation.
+            <p><span>&#45;</span> Manage laboratory environments for education and research, including experimental apparatus preparation and specimen handling.
+            <p><span>&#45;</span> Collect and systematise field samples (gas, soil) for scientific analysis — cleaning, filtration, and quality control.
+            <p><span>&#45;</span> Execute experimental setups and field research activities; compile findings into reports and scholarly papers.
 
-      - role: <strong>PhD Candidate (Dean’s List)</strong>
-        time: <em>04/2017 – 08/2021</em>
+      - role: <strong>GIS Mapping & Analysis Resource — Consulting Contract</strong>
+        time: <em>05/2025 – 07/2025</em>
+        company: Christchurch City Council, New Zealand
+        details: |
+            <p><span>&#45;</span> Managed parcel, zoning, and District Plan datasets within an <strong>enterprise GIS environment</strong> (SQL Server geodatabases).
+            <p><span>&#45;</span> Maintained spatial data integrity and compliance with <strong>enterprise standards and governance frameworks</strong>.
+            <p><span>&#45;</span> Performed data validation and prepared datasets for publication to enterprise systems.
+            <p><span>&#45;</span> Produced <strong>statutory planning maps</strong> and spatial outputs for planners and internal stakeholders.
+            <p><span>&#45;</span> Collaborated across business units to deliver accurate, fit-for-purpose spatial solutions.
+
+      - role: <strong>Geospatial Research Assistant</strong>
+        time: <em>05/2022 – 10/2025</em>
+        company: Lincoln Agritech Ltd., Lincoln University, New Zealand
+        details: |
+            <p><span>&#45;</span> Led <strong>end-to-end geospatial workflows</strong> for satellite (Sentinel-2) and UAV imagery: acquisition, processing, analysis, and reporting.
+            <p><span>&#45;</span> Developed <strong>Python-based automation</strong> for satellite and UAV data processing, improving efficiency and reproducibility.
+            <p><span>&#45;</span> Operated <strong>eBeeX UAV</strong> (RedEdge, Duet T, SODA 3D sensors); processed imagery using <strong>Pix4D</strong> for orthomosaics and DSMs.
+            <p><span>&#45;</span> Operated <strong>RTK-GNSS systems</strong> (Trimble R10) for high-accuracy spatial data capture.
+            <p><span>&#45;</span> Developed <strong>SOPs and technical documentation</strong> for UAV, GNSS, and remote sensing data acquisition.
+            <p><span>&#45;</span> Delivered training, workshops, and technical reports for <strong>industry partners and research stakeholders</strong>.
+
+      - role: <strong>Lecturer and Researcher</strong>
+        time: <em>10/2008 – Present</em>
+        company: Can Tho University, Vietnam
+        details: |
+            <p><span>&#45;</span> Delivered undergraduate and Master's courses in <strong>GIS, Programming, Database Systems, Data Mining, and Information Systems</strong>.
+            <p><span>&#45;</span> Supervised <strong>30+ undergraduate projects and 3 Master's graduates</strong> in computing and spatial analysis.
+            <p><span>&#45;</span> Designed course materials, practical laboratory sessions, and assessment frameworks across in-person, blended, and online formats.
+            <p><span>&#45;</span> Led <strong>European Space Agency-funded</strong> rice identification project (PI) for the Mekong Delta (2023–2024).
+            <p><span>&#45;</span> Organised workshops in GIS, Python, and Remote Sensing for students and professionals.
+
+      - role: <strong>Postdoctoral Researcher — AI / Machine Learning</strong>
+        time: <em>07/2021 – 12/2021</em>
         company: Lincoln University, New Zealand
         details: |
-            <p><span>&#45;</span> Researched autonomous self-repair systems using neural-network-based computational frameworks.
-            <p><span>&#45;</span> Designed and evaluated multiple algorithmic approaches for tissue/organism regeneration modelling.
-            <p><span>&#45;</span> Published research outputs and contributed peer-review service to journals and conferences.
-
-      - role: <strong>Data Analyst (AI / Machine Learning)</strong>
-        time: <em>09/2019 – 12/2019</em>
-        company: Lincoln University, New Zealand
-        details: |
-            <p><span>&#45;</span> Prepared and structured datasets for neural-network analysis of biological tissues.
-            <p><span>&#45;</span> Implemented modelling and visualisation workflows to examine memory and topology effects in Hopfield networks.
-            <p><span>&#45;</span> Synthesised findings into technical reports and publication-ready research content.
-
+            <p><span>&#45;</span> Built and analysed <strong>neural-network models</strong> (including RNN-based approaches) for biological system dynamics.
+            <p><span>&#45;</span> Implemented data processing, modelling, and visualisation in <strong>Python, MATLAB, and R</strong>.
+            <p><span>&#45;</span> Authored scholarly articles and analytical reports.
 
 projects:
-    title: Skills &amp; Proficiency
-    intro: >
-
-        <strong>Technical skills:</strong>
-        <p><span>&#45;</span> Programming Languages: Python: 6+ years focusing on data preprocessing and analysis; 1 year specializing in geospatial data. Proficient in R for image acquisition and statistics. Competent in C/C++ for algorithm development.
-        <p><span>&#45;</span> Relational Databases: Over 5 years of practical experience in SQL, PL/SQL, T-SQL, and PL/pgSQL.
-        <p><span>&#45;</span> Geospatial Expertise: Proficient in GIS data handling, utilizing GPS devices, UAV technology, and ground sensing sensors.
-        <p><span>&#45;</span> Data Analysis Tools: Skilled in Python, R, Tableau, PowerBI, and SAS for diverse data analysis needs.
-        <p><span>&#45;</span> Research and Review: Experienced in writing and reviewing research papers.
-        <p><strong>Personal strengths:</strong>
-        <p><span>&#45;</span> Strong Work Ethic: Demonstrated through academic studies and employment.
-        <p><span>&#45;</span> Creative Problem-Solving: Positive, adaptable, and flexible mindset for resolving challenges.
-        <p><span>&#45;</span> Analytical Skills: Good at research, observant, patient, safety-conscious, and adept at problem-solving.
-        <p><span>&#45;</span> Communication and Organization: Strong written and verbal communication skills, organized, and efficient in planning.
-        <p><span>&#45;</span> Team Player: Capable of working independently and collaboratively within a team.
-        <p><span>&#45;</span> Passion for Growth: Enthusiastic about learning, self-development, building relationships, and embracing innovative work methodologies.
-projects:
-    title: Selected GeoAI / Remote Sensing Projects
-    intro: >
-      I design operational geospatial systems that translate Earth observation data into decisions cities and organisations can execute.
-      I am currently open to roles in <strong>GIS Research, Remote Sensing Science, and Climate Risk Analytics</strong>.
+    title: Selected Projects
+    intro: |
+        Key projects demonstrating applied geospatial expertise across government, defence, agriculture, and environmental sectors.
     assignments:
-      - title: Extreme Heat Resilience Decision System (On going)
+      - title: "Extreme Heat Resilience Decision System (Ongoing)"
         link: "#"
-        abstract: "Built a neighbourhood-level heat-risk workflow combining satellite EO, weather inputs, and local vulnerability layers for 24-72h action planning. Target outcomes: 2-5°C hotspot cooling, >=20% reduction in heat-exposure hours, and 10-25% cooling-energy reduction in intervention sites."
+        abstract: "Neighbourhood-level heat-risk workflow combining satellite EO, weather inputs, and vulnerability layers for 24-72h action planning. Target: 2-5°C hotspot cooling, ≥20% reduction in heat-exposure hours."
 
-      - title: High-Accuracy Rice Identification Tool (ESA-funded case study, Dong Thap)
+      - title: "Bucket Test from Space — Principal Investigator (AGMARDT)"
         link: "#"
-        abstract: "Developed geospatial classification workflows for rice mapping in the Mekong Delta using multi-source remote sensing data to support agricultural monitoring and planning."
+        abstract: "AI tool using satellite imagery to detect irrigation issues and improve farm water efficiency. Led end-to-end research from data acquisition to prototype delivery for industry partners."
 
-      - title: UAV + Satellite Crop Monitoring Workflows (Lincoln Agritech)
+      - title: "High-Accuracy Rice Identification — Mekong Delta (ESA-Funded, PI)"
         link: "#"
-        abstract: "Developed Python-based pipelines for imagery download, preprocessing, feature extraction, and reporting from Sentinel and UAV datasets to improve reproducible agronomic analysis."
+        abstract: "Led applied geospatial analysis and tool development for rice mapping using multi-source remote sensing data. European Space Agency funded, 2023–2024, with international partners."
 
-      - title: Bucket Test from Space (PI)
+      - title: "Tracking Pasture Quality with Satellite Imagery (MBIE–NASA)"
         link: "#"
-        abstract: "Developed an AI tool using satellite imagery to detect irrigation issues and improve farm water efficiency."
+        abstract: "UAV lead pilot for data collection. Applied PROSAIL radiative transfer models validated with APSIM and ground truthing. Developed protocols for government stakeholders."
 
-      - title: Geospatial Capacity Building and Applied Research Delivery
+      - title: "Mānuka Identification Tool (Mānuka Health)"
         link: "#"
-        abstract: "Led workshops, technical documentation, and collaborative implementation across researchers, field teams, and stakeholders to convert GeoAI outputs into operational decisions."
+        abstract: "Sentinel-2 processing (L1C→L2A), data mining, statistical modelling, and custom ArcGIS toolboxes for industry client."
+
+      - title: "UAV + Satellite Crop Monitoring Pipelines"
+        link: "#"
+        abstract: "Python-based pipelines for imagery download, preprocessing, feature extraction, and reporting from Sentinel-2 and UAV datasets."
 
 oss:
-    title: Medium articles
-    intro: >
-      Geospatial analysis is a rapidly growing field that combines geography, spatial data and technology to provide insights into a wide range of applications. Whether you're analyzing urban planning, disaster response, or the spread of disease, geospatial analysis provides a unique perspective on complex problems. In this blog, we will explore the latest trends, techniques and tools in geospatial analysis, and how it is changing the way we understand the world around us.
+    title: Medium Articles
+    intro: |
+        Writing about geospatial analysis, remote sensing, Python automation, and applied GIS techniques.
     contributions:
       - title: 1. <a href="https://tnmthai.medium.com/spatial-programming-remote-sensing-6f0839ec3b03" class="underline" target="_blank" rel="noopener noreferrer">Spatial Programming & Remote Sensing</a>
         link: "#"
-        tagline: "Spatial programming and remote sensing are essential components of modern technology and are transforming the way we understand our world."
+        tagline: "How spatial programming and remote sensing are transforming the way we understand our world."
 
-      - title: 2. <a href="https://tnmthai.medium.com/apply-masks-on-satellite-images-1e17e66d6473" class="underline" target="_blank" rel="noopener noreferrer">Apply masks on Satellite Images</a>
+      - title: 2. <a href="https://tnmthai.medium.com/apply-masks-on-satellite-images-1e17e66d6473" class="underline" target="_blank" rel="noopener noreferrer">Apply Masks on Satellite Images</a>
         link: "#"
-        tagline: "When we use Satellite Imagery, they usually provide masks for clouds, water, etc. I will show you how to apply masks to remove water pixels from satellite images."
+        tagline: "Practical guide to applying cloud and water masks to remove unwanted pixels from satellite imagery."
 
-      - title: 3. <a href="https://tnmthai.medium.com/remove-photo-background-by-python-b7b14da30126" class="underline" target="_blank" rel="noopener noreferrer">Remove photo background by Python</a>
+      - title: 3. <a href="https://tnmthai.medium.com/remove-photo-background-by-python-b7b14da30126" class="underline" target="_blank" rel="noopener noreferrer">Remove Photo Background by Python</a>
         link: "#"
-        tagline: "Removing the background of an image using Python can be done using image processing and computer vision techniques. One popular method is using the OpenCV library, which provides a range of tools and functions for image processing and computer vision."
+        tagline: "Using OpenCV and image processing techniques to remove backgrounds from images."
 
       - title: 4. <a href="https://tnmthai.medium.com/watermark-photos-with-python-d8c14d9703af" class="underline" target="_blank" rel="noopener noreferrer">Watermark Photos with Python</a>
         link: "#"
-        tagline: "To watermark photos using Python, you can use the Python Imaging Library (PIL) or OpenCV library. Both libraries provide tools for image processing and can be used to add a watermark to an image."
+        tagline: "Adding watermarks to photos using PIL and OpenCV libraries."
 
       - title: 5. <a href="https://tnmthai.medium.com/chatgpt-api-with-python-e5690dace115" class="underline" target="_blank" rel="noopener noreferrer">ChatGPT API with Python</a>
         link: "#"
-        tagline: "To use the OpenAI API with Python, you will need to use the OpenAI API client library, which provides a Python interface for the API. The API client library makes it easy to interact with the API, allowing you to send requests to the API and receive responses in a convenient and easy-to-use format."
+        tagline: "Integrating OpenAI's API with Python for AI-powered applications."
 
 publications:
-    title: Best publications
+    title: Selected Publications
     intro: |
-        1.	Sandhya Samarasinghe, <strong>T.N Minh-Thai</strong>, Komal Sorthiya, Don Kulasiri (2025): Neurons and neural networks to model proteins and protein networks, BioSystems, Volume 258, 2025, 105613, ISSN 0303-2647, https://doi.org/10.1016/j.biosystems.2025.105613. <strong> SCIE- WoS. </strong>
-        2.	Sandhya Samarasinghe, <strong>T. N. Minh-Thai</strong>, A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration of Form and Function in Biological Organisms, PNAS Nexus, 2023;, pgac308, https://doi.org/10.1093/pnasnexus/pgac308. <strong> ESCI- WoS. </strong>
-        3.	<strong>T. N. Minh-Thai</strong>, Sandhya Samarasinghe, Michael Levin: A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration Systems. 	Article in Artificial Life. 2021; MIT Press. DOI: https://doi.org/10.1162/artl_a_00343. <strong> SCIE- WoS. </strong>
-        4.	<strong>T. N. Minh-Thai</strong>, Aryal J., Samarasinghe S., Levin M. (2018) A Computational Framework for Autonomous Self-repair Systems. In: Mitrovic T., Xue B., Li X. (eds) AI 2018: Advances in Artificial Intelligence. AI 2018. Lecture Notes in Computer Science, vol 11320. Springer, Cham. <strong>Scopus - Elsevier.</strong>
-        5.	<strong>T. N. Minh-Thai</strong> and Nguyen Thai-Nghe. (2015). An Approach for Developing Intelligent Systems in Smart Home Environment. In: Dang T., Wagner R., Küng J., Thoai N., Takizawa M., Neuhold E. (eds) Future Data and Security Engineering. FDSE 2015. Lecture Notes in Computer Science, pp 147-161, vol 9446. Springer, Cham.<strong>Scopus - Elsevier.</strong>
-        6.	<strong>T. N. Minh-Thai</strong> and Nguyen Thai-Nghe. (2015). Methods for Abnormal Usage Detection in Developing Intelligent Systems for Smart Homes. In Proceedings of the 2015 Seventh International Conference on Knowledge and Systems Engineering (KSE 2015). pp. 114-119, ISBN 978-1-4673-8013-3, IEEE.<strong>Scopus - Elsevier.</strong>
+        1.	Sandhya Samarasinghe, <strong>T.N Minh-Thai</strong>, Komal Sorthiya, Don Kulasiri (2025): Neurons and neural networks to model proteins and protein networks, BioSystems, Volume 258, 2025, 105613. <strong>SCIE-WoS.</strong>
+        2.	Sandhya Samarasinghe, <strong>T. N. Minh-Thai</strong> (2023): Autonomous Regeneration of Form and Function in Biological Organisms. PNAS NEXUS, Oxford Academic. <strong>ESCI-WoS.</strong>
+        3.	<strong>T. N. Minh-Thai</strong>, Sandhya Samarasinghe, Michael Levin (2021): Autonomous Regeneration Systems. Artificial Life, MIT Press. <strong>SCIE-WoS.</strong>
+        4.	<strong>T. N. Minh-Thai</strong>, Aryal J., Samarasinghe S., Levin M. (2018): Autonomous Self-repair Systems. AI 2018, Lecture Notes in Computer Science, vol 11320, Springer. <strong>Scopus.</strong>
+        5.	<strong>T. N. Minh-Thai</strong> and Nguyen Thai-Nghe (2015): Intelligent Systems in Smart Home. FDSE 2015, Lecture Notes in Computer Science, vol 9446, Springer. <strong>Scopus.</strong>
+        6.	<strong>T. N. Minh-Thai</strong> and Nguyen Thai-Nghe (2015): Abnormal Usage Detection in Smart Homes. KSE 2015, IEEE. <strong>Scopus.</strong>
 
-    # papers:
-    # <strong>Thai Tran</strong> earned a PhD in Computer Science from Lincoln University in New Zealand, completing his successful oral exam on July 13, 2021. Throughout his academic journey, he was under the guidance of Professor <a href="https://researchers.lincoln.ac.nz/sandhya.samarasinghe" class="underline" target="_blank" rel="noopener noreferrer"><b>Sandhya Samarasinghe</b></a> and Professor <a href="https://researchers.lincoln.ac.nz/don.kulasiri" class="underline" target="_blank" rel="noopener noreferrer"><b>Don Kulasiri</b></a> from Lincoln University, along with Distinguished Professor <a href="https://ase.tufts.edu/biology/labs/levin/" class="underline" target="_blank" rel="noopener noreferrer"><b>Michael Levin</b></a> from the Wyss Institute at Harvard and Tufts University in the USA.
-      # - title: A Comprehensive Conceptual and Computational Dynamics Framework for Autonomous Regeneration of Form and Function in Biological Organisms.
-        # link:
-        # authors: Sandhya Samarasinghe and T. N. Minh-Thai
-        # conference: PNAS NEXUS - Oxford Academic. (Accepted 12/2022). Q1, IF= 12.779.
-
-
-# skills:
-    # title: Skills &amp; Proficiency
-
-    # toolset:
-      # - name: Python
-        # level: 98%
-
-      # - name: SQL
-        # level: 98%
-
-      # - name: GIS
-        # level: 80%
-
-
-
-
-footer: >
-    Copyright by <a href="https://www.tnmthai.com" target="_blank" rel="dofollow">Thai Tran</a>
+skills:
+    title: Technical Skills
+    toolset:
+      - name: ArcGIS Pro / ESRI
+        level: 95%
+      - name: QGIS
+        level: 95%
+      - name: Python (Geospatial & Automation)
+        level: 92%
+      - name: Remote Sensing (Sentinel-2, Classification)
+        level: 90%
+      - name: SQL / Spatial Databases
+        level: 88%
+      - name: Google Earth Engine
+        level: 85%
+      - name: UAV Operations (eBeeX, Pix4D)
+        level: 85%
+      - name: RTK-GNSS (Trimble R10)
+        level: 82%
+      - name: Data Governance & Metadata
+        level: 80%
+      - name: R / MATLAB
+        level: 75%
+      - name: Tableau / Power BI
+        level: 70%
