@@ -61,13 +61,16 @@ education:
 experiences:
     title: Professional Experience
     info:
-      - role: <strong>Research Technician</strong>
-        time: <em>11/2025 – Present</em>
-        company: Lincoln University, New Zealand
+      - role: <strong>Geospatial Research Assistant</strong>
+        time: <em>05/2022 – 10/2025</em>
+        company: Lincoln Agritech Ltd., Lincoln University, New Zealand
         details: |
-            <p><span>&#45;</span> Manage laboratory environments for education and research, including experimental apparatus preparation and specimen handling.
-            <p><span>&#45;</span> Collect and systematise field samples (gas, soil) for scientific analysis — cleaning, filtration, and quality control.
-            <p><span>&#45;</span> Execute experimental setups and field research activities; compile findings into reports and scholarly papers.
+            <p><span>&#45;</span> Led <strong>end-to-end geospatial workflows</strong> for satellite (Sentinel-2) and UAV imagery: acquisition, processing, analysis, and reporting.
+            <p><span>&#45;</span> Developed <strong>Python-based automation</strong> for satellite and UAV data processing, improving efficiency and reproducibility.
+            <p><span>&#45;</span> Operated <strong>eBeeX UAV</strong> (RedEdge, Duet T, SODA 3D sensors); processed imagery using <strong>Pix4D</strong> for orthomosaics and DSMs.
+            <p><span>&#45;</span> Operated <strong>RTK-GNSS systems</strong> (Trimble R10) for high-accuracy spatial data capture.
+            <p><span>&#45;</span> Developed <strong>SOPs and technical documentation</strong> for UAV, GNSS, and remote sensing data acquisition.
+            <p><span>&#45;</span> Delivered training, workshops, and technical reports for <strong>industry partners and research stakeholders</strong>.
 
       - role: <strong>GIS Mapping & Analysis Resource — Consulting Contract</strong>
         time: <em>05/2025 – 07/2025</em>
@@ -79,16 +82,13 @@ experiences:
             <p><span>&#45;</span> Produced <strong>statutory planning maps</strong> and spatial outputs for planners and internal stakeholders.
             <p><span>&#45;</span> Collaborated across business units to deliver accurate, fit-for-purpose spatial solutions.
 
-      - role: <strong>Geospatial Research Assistant</strong>
-        time: <em>05/2022 – 10/2025</em>
-        company: Lincoln Agritech Ltd., Lincoln University, New Zealand
+      - role: <strong>Research Technician</strong>
+        time: <em>11/2025 – Present</em>
+        company: Lincoln University, New Zealand
         details: |
-            <p><span>&#45;</span> Led <strong>end-to-end geospatial workflows</strong> for satellite (Sentinel-2) and UAV imagery: acquisition, processing, analysis, and reporting.
-            <p><span>&#45;</span> Developed <strong>Python-based automation</strong> for satellite and UAV data processing, improving efficiency and reproducibility.
-            <p><span>&#45;</span> Operated <strong>eBeeX UAV</strong> (RedEdge, Duet T, SODA 3D sensors); processed imagery using <strong>Pix4D</strong> for orthomosaics and DSMs.
-            <p><span>&#45;</span> Operated <strong>RTK-GNSS systems</strong> (Trimble R10) for high-accuracy spatial data capture.
-            <p><span>&#45;</span> Developed <strong>SOPs and technical documentation</strong> for UAV, GNSS, and remote sensing data acquisition.
-            <p><span>&#45;</span> Delivered training, workshops, and technical reports for <strong>industry partners and research stakeholders</strong>.
+            <p><span>&#45;</span> Manage laboratory environments for education and research, including experimental apparatus preparation and specimen handling.
+            <p><span>&#45;</span> Collect and systematise field samples (gas, soil) for scientific analysis — cleaning, filtration, and quality control.
+            <p><span>&#45;</span> Execute experimental setups and field research activities; compile findings into reports and scholarly papers.
 
       - role: <strong>Lecturer and Researcher</strong>
         time: <em>10/2008 – Present</em>
