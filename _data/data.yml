@@ -38,10 +38,8 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      <p><span>&#45;</span> <strong>GIS and Remote Sensing specialist</strong> with 15+ years in geospatial analysis and enterprise GIS; 15+ years teaching databases and programming; 3+ years in GIS. PhD in Computer Science (Dean's List) with 6 peer-reviewed publications.
-      <p><span>&#45;</span> Experienced in <strong>ArcGIS Pro, QGIS, Python, SQL Server, Google Earth Engine, Pix4D, and UAV operations</strong>. Delivered location intelligence products for government agencies, defence, renewable energy, and environmental clients.
-      <p><span>&#45;</span> Strong track record in <strong>client engagement, proposal writing, technical documentation, and stakeholder communication</strong> across consulting, research, and academic environments.
-      <p><span>&#45;</span> Currently seeking <strong>GIS Analyst / Remote Sensing Scientist / Geospatial Data Scientist</strong> roles in Australia or New Zealand.
+      <p>GIS Analyst and Remote Sensing Specialist with 3+ years of professional experience in enterprise GIS, spatial analysis, and satellite/UAV remote sensing, delivering geospatial solutions for local government, agriculture, defence, renewable energy, and environmental applications. Strong expertise in ArcGIS Pro, QGIS, Python automation, SQL Server geodatabases, Google Earth Engine, and spatial data governance.
+      <p>Combining industry delivery with a PhD in Computer Science and 15+ years in teaching and applied research, I bring a rare blend of technical depth, analytical rigour, and stakeholder engagement to build scalable geospatial systems and decision-support tools. Author of 6 peer-reviewed publications.
 
 education:
     title: Education
@@ -113,10 +111,6 @@ projects:
     intro: |
         Key projects demonstrating applied geospatial expertise across government, defence, agriculture, and environmental sectors.
     assignments:
-      - title: "Extreme Heat Resilience Decision System (Ongoing)"
-        link: "#"
-        abstract: "Neighbourhood-level heat-risk workflow combining satellite EO, weather inputs, and vulnerability layers for 24-72h action planning. Target: 2-5°C hotspot cooling, ≥20% reduction in heat-exposure hours."
-
       - title: "Bucket Test from Space — Principal Investigator (AGMARDT)"
         link: "#"
         abstract: "AI tool using satellite imagery to detect irrigation issues and improve farm water efficiency. Led end-to-end research from data acquisition to prototype delivery for industry partners."
