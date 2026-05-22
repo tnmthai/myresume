@@ -131,6 +131,14 @@ projects:
         link: "#"
         abstract: "Python-based pipelines for imagery download, preprocessing, feature extraction, and reporting from Sentinel-2 and UAV datasets."
 
+      - title: "RentFinder NZ — AI-Powered Rental Search"
+        link: "https://www.rentfinder.nz"
+        abstract: "Full-stack web platform for New Zealand rental market. Features AI-powered search, featured/boost listings, verified badges, and admin moderation. Built with React, Express, and PostgreSQL."
+
+      - title: "Timia — Salon Booking Platform"
+        link: "https://www.facebook.com/timia.nz"
+        abstract: "Multi-tenant SaaS booking platform for salons (similar to Timely). Features role-based permissions, staff scheduling, swipeable calendar views, and online booking. Built with React, Vite, Tailwind CSS, Express, and PostgreSQL."
+
 oss:
     title: Medium Articles
     intro: |
