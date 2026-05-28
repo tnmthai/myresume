@@ -40,8 +40,8 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      <p>GIS Analyst and Remote Sensing Specialist with 3+ years of professional experience in enterprise GIS, spatial analysis, and satellite/UAV remote sensing, delivering geospatial solutions for local government, agriculture, defence, renewable energy, and environmental applications. Strong expertise in ArcGIS Pro, QGIS, Python automation, SQL Server geodatabases, Google Earth Engine, and spatial data governance.
-      <p>Combining industry delivery with a PhD in Computer Science and 15+ years in teaching and applied research, I bring a rare blend of technical depth, analytical rigour, and stakeholder engagement to build scalable geospatial systems and decision-support tools. Author of 6 peer-reviewed publications.
+      <p>GIS Analyst and Remote Sensing Specialist with 3+ years of experience in enterprise GIS, spatial analysis, satellite/UAV remote sensing, and geospatial automation across local government, agriculture, defence, renewable energy, and environmental sectors. Skilled in ArcGIS Pro, QGIS, Python, SQL Server geodatabases, Google Earth Engine, and spatial data governance.
+      <p>PhD in Computer Science with strong experience in applied research, stakeholder engagement, and scalable geospatial solution development. Author of 6 peer-reviewed publications.
 
 education:
     title: Education
@@ -65,86 +65,100 @@ experiences:
         time: <em>05/2022 – 10/2025</em>
         company: Lincoln Agritech Ltd., Lincoln University, New Zealand
         details: |
-            <p><span>&#45;</span> Led <strong>end-to-end geospatial workflows</strong> for satellite (Sentinel-2) and UAV imagery: acquisition, processing, analysis, and reporting.
-            <p><span>&#45;</span> Developed <strong>Python-based automation</strong> for satellite and UAV data processing, improving efficiency and reproducibility.
-            <p><span>&#45;</span> Operated <strong>eBeeX UAV</strong> (RedEdge, Duet T, SODA 3D sensors); processed imagery using <strong>Pix4D</strong> for orthomosaics and DSMs.
-            <p><span>&#45;</span> Operated <strong>RTK-GNSS systems</strong> (Trimble R10) for high-accuracy spatial data capture.
-            <p><span>&#45;</span> Developed <strong>SOPs and technical documentation</strong> for UAV, GNSS, and remote sensing data acquisition.
-            <p><span>&#45;</span> Delivered training, workshops, and technical reports for <strong>industry partners and research stakeholders</strong>.
+            <p><span>&#45;</span> Led satellite and UAV imagery workflows from acquisition to analysis and reporting.
+            <p><span>&#45;</span> Automated satellite and UAV processing workflows using Python.
+            <p><span>&#45;</span> Operated eBeeX UAV platforms with RedEdge, Duet T, and SODA 3D sensors.
+            <p><span>&#45;</span> Processed UAV imagery in Pix4D for orthomosaics and DSM generation.
+            <p><span>&#45;</span> Operated RTK-GNSS systems (Trimble R10) for high-accuracy spatial data collection.
+            <p><span>&#45;</span> Developed SOPs and technical documentation for geospatial workflows.
+            <p><span>&#45;</span> Delivered training sessions, workshops, and technical reports for stakeholders.
 
       - role: <strong>GIS Mapping & Analysis Resource — Consulting Contract</strong>
         time: <em>05/2025 – 07/2025</em>
         company: Christchurch City Council, New Zealand
         details: |
-            <p><span>&#45;</span> Managed parcel, zoning, and District Plan datasets within an <strong>enterprise GIS environment</strong> (SQL Server geodatabases).
-            <p><span>&#45;</span> Maintained spatial data integrity and compliance with <strong>enterprise standards and governance frameworks</strong>.
-            <p><span>&#45;</span> Performed data validation and prepared datasets for publication to enterprise systems.
-            <p><span>&#45;</span> Produced <strong>statutory planning maps</strong> and spatial outputs for planners and internal stakeholders.
-            <p><span>&#45;</span> Collaborated across business units to deliver accurate, fit-for-purpose spatial solutions.
+            <p><span>&#45;</span> Managed parcel, zoning, and District Plan datasets in enterprise GIS environments.
+            <p><span>&#45;</span> Maintained spatial data quality and enterprise GIS standards.
+            <p><span>&#45;</span> Performed spatial data validation and prepared datasets for publication.
+            <p><span>&#45;</span> Produced statutory planning maps and spatial outputs for internal stakeholders.
+            <p><span>&#45;</span> Collaborated across business units to deliver fit-for-purpose spatial solutions.
 
       - role: <strong>Research Technician</strong>
         time: <em>11/2025 – Present</em>
         company: Lincoln University, New Zealand
         details: |
-            <p><span>&#45;</span> Manage laboratory environments for education and research, including experimental apparatus preparation and specimen handling.
-            <p><span>&#45;</span> Collect and systematise field samples (gas, soil) for scientific analysis — cleaning, filtration, and quality control.
-            <p><span>&#45;</span> Execute experimental setups and field research activities; compile findings into reports and scholarly papers.
+            <p><span>&#45;</span> Supported laboratory and field research activities for education and research projects.
+            <p><span>&#45;</span> Collected and prepared environmental samples for scientific analysis.
+            <p><span>&#45;</span> Assisted with experimental setup, data collection, and reporting.
 
       - role: <strong>Lecturer and Researcher</strong>
         time: <em>10/2008 – Present</em>
         company: Can Tho University, Vietnam
         details: |
-            <p><span>&#45;</span> Delivered undergraduate and Master's courses in <strong>GIS, Programming, Database Systems, Data Mining, and Information Systems</strong>.
-            <p><span>&#45;</span> Supervised <strong>30+ undergraduate projects and 3 Master's graduates</strong> in computing and spatial analysis.
-            <p><span>&#45;</span> Designed course materials, practical laboratory sessions, and assessment frameworks across in-person, blended, and online formats.
-            <p><span>&#45;</span> Led <strong>European Space Agency-funded</strong> rice identification project (PI) for the Mekong Delta (2023–2024).
-            <p><span>&#45;</span> Organised workshops in GIS, Python, and Remote Sensing for students and professionals.
+            <p><span>&#45;</span> Delivered courses in GIS, programming, databases, and data science.
+            <p><span>&#45;</span> Supervised undergraduate and Master's research projects.
+            <p><span>&#45;</span> Led ESA-funded rice mapping research projects.
+            <p><span>&#45;</span> Organised GIS, Python, and remote sensing workshops.
 
       - role: <strong>Postdoctoral Researcher — AI / Machine Learning</strong>
         time: <em>07/2021 – 12/2021</em>
         company: Lincoln University, New Zealand
         details: |
-            <p><span>&#45;</span> Built and analysed <strong>neural-network models</strong> (including RNN-based approaches) for biological system dynamics.
-            <p><span>&#45;</span> Implemented data processing, modelling, and visualisation in <strong>Python, MATLAB, and R</strong>.
-            <p><span>&#45;</span> Authored scholarly articles and analytical reports.
+            <p><span>&#45;</span> Developed neural-network models for biological system analysis.
+            <p><span>&#45;</span> Implemented data processing and modelling workflows in Python, MATLAB, and R.
+            <p><span>&#45;</span> Published scientific papers and technical reports.
 
 projects:
     title: Selected Projects
     intro: |
-        Key projects demonstrating applied geospatial expertise across government, defence, agriculture, and environmental sectors.
+        Key projects demonstrating applied geospatial expertise across government, agriculture, and technology sectors.
     assignments:
       - title: "Bucket Test from Space — Principal Investigator (AGMARDT)"
         link: "#"
-        abstract: "AI tool using satellite imagery to detect irrigation issues and improve farm water efficiency. Led end-to-end research from data acquisition to prototype delivery for industry partners."
+        abstract: "Developed an AI-based irrigation monitoring tool using satellite imagery to detect irrigation inconsistencies and improve water efficiency."
 
-      - title: "High-Accuracy Rice Identification — Mekong Delta (ESA-Funded, PI)"
+      - title: "High-Accuracy Rice Identification — ESA Funded"
         link: "#"
-        abstract: "Led applied geospatial analysis and tool development for rice mapping using multi-source remote sensing data. European Space Agency funded, 2023–2024, with international partners."
-
-      - title: "Tracking Pasture Quality with Satellite Imagery (MBIE–NASA)"
-        link: "#"
-        abstract: "UAV lead pilot for data collection. Applied PROSAIL radiative transfer models validated with APSIM and ground truthing. Developed protocols for government stakeholders."
-
-      - title: "Mānuka Identification Tool (Mānuka Health)"
-        link: "#"
-        abstract: "Sentinel-2 processing (L1C→L2A), data mining, statistical modelling, and custom ArcGIS toolboxes for industry client."
+        abstract: "Led geospatial analysis and remote sensing workflows for rice mapping in the Mekong Delta using multi-source satellite imagery."
 
       - title: "UAV + Satellite Crop Monitoring Pipelines"
         link: "#"
-        abstract: "Python-based pipelines for imagery download, preprocessing, feature extraction, and reporting from Sentinel-2 and UAV datasets."
+        abstract: "Developed Python pipelines for Sentinel-2 and UAV imagery download, preprocessing, feature extraction, and reporting."
 
       - title: "RentFinder NZ — AI-Powered Rental Search"
         link: "https://www.rentfinder.nz"
-        abstract: "Full-stack web platform for New Zealand rental market. Features AI-powered search, featured/boost listings, verified badges, and admin moderation. Built with React, Express, and PostgreSQL."
+        abstract: "Built a full-stack rental search platform with AI-powered search, verified listings, and admin moderation tools using React, Express, and PostgreSQL."
 
       - title: "Timia — Salon Booking Platform"
         link: "https://www.facebook.com/timia.nz"
-        abstract: "Multi-tenant SaaS booking platform for salons (similar to Timely). Features role-based permissions, staff scheduling, swipeable calendar views, and online booking. Built with React, Vite, Tailwind CSS, Express, and PostgreSQL."
+        abstract: "Developed a multi-tenant SaaS booking platform with scheduling, online booking, and role-based access management."
+
+publications:
+    title: Selected Publications
+    intro: |
+        1.	Samarasinghe S., <strong>Minh-Thai T.N.</strong>, et al. (2025). <em>BioSystems</em>.
+        2.	Samarasinghe S., <strong>Minh-Thai T.N.</strong> (2023). <em>PNAS Nexus</em>.
+        3.	<strong>Minh-Thai T.N.</strong>, Samarasinghe S., Levin M. (2021). <em>Artificial Life</em>.
+        4.	<strong>Minh-Thai T.N.</strong>, et al. (2018). <em>Springer LNCS</em>.
+        5.	<strong>Minh-Thai T.N.</strong>, Nguyen Thai-Nghe (2015). <em>Springer LNCS</em>.
+        6.	<strong>Minh-Thai T.N.</strong>, Nguyen Thai-Nghe (2015). <em>IEEE Conference Proceedings</em>.
+
+skills:
+    title: Technical Skills
+    toolset:
+      - name: GIS & Remote Sensing (ArcGIS Pro, QGIS, GEE, Sentinel-2, UAV)
+        level: 95%
+      - name: Programming & Databases (Python, SQL Server, PostgreSQL, R, MATLAB)
+        level: 90%
+      - name: Field & Survey (eBeeX UAV, Pix4D, RTK-GNSS)
+        level: 85%
+      - name: Analytics & Visualisation (Tableau, Power BI)
+        level: 70%
 
 oss:
     title: Medium Articles
     intro: |
-        Writing about geospatial analysis, remote sensing, Python automation, and applied GIS techniques.
+        Writing about GIS, remote sensing, Python automation, and geospatial workflows on Medium.
     contributions:
       - title: 1. <a href="https://tnmthai.medium.com/spatial-programming-remote-sensing-6f0839ec3b03" class="underline" target="_blank" rel="noopener noreferrer">Spatial Programming & Remote Sensing</a>
         link: "#"
@@ -165,39 +179,3 @@ oss:
       - title: 5. <a href="https://tnmthai.medium.com/chatgpt-api-with-python-e5690dace115" class="underline" target="_blank" rel="noopener noreferrer">ChatGPT API with Python</a>
         link: "#"
         tagline: "Integrating OpenAI's API with Python for AI-powered applications."
-
-publications:
-    title: Selected Publications
-    intro: |
-        1.	Sandhya Samarasinghe, <strong>T.N Minh-Thai</strong>, Komal Sorthiya, Don Kulasiri (2025): Neurons and neural networks to model proteins and protein networks, BioSystems, Volume 258, 2025, 105613. <strong>SCIE-WoS.</strong>
-        2.	Sandhya Samarasinghe, <strong>T. N. Minh-Thai</strong> (2023): Autonomous Regeneration of Form and Function in Biological Organisms. PNAS NEXUS, Oxford Academic. <strong>ESCI-WoS.</strong>
-        3.	<strong>T. N. Minh-Thai</strong>, Sandhya Samarasinghe, Michael Levin (2021): Autonomous Regeneration Systems. Artificial Life, MIT Press. <strong>SCIE-WoS.</strong>
-        4.	<strong>T. N. Minh-Thai</strong>, Aryal J., Samarasinghe S., Levin M. (2018): Autonomous Self-repair Systems. AI 2018, Lecture Notes in Computer Science, vol 11320, Springer. <strong>Scopus.</strong>
-        5.	<strong>T. N. Minh-Thai</strong> and Nguyen Thai-Nghe (2015): Intelligent Systems in Smart Home. FDSE 2015, Lecture Notes in Computer Science, vol 9446, Springer. <strong>Scopus.</strong>
-        6.	<strong>T. N. Minh-Thai</strong> and Nguyen Thai-Nghe (2015): Abnormal Usage Detection in Smart Homes. KSE 2015, IEEE. <strong>Scopus.</strong>
-
-skills:
-    title: Technical Skills
-    toolset:
-      - name: ArcGIS Pro / ESRI
-        level: 95%
-      - name: QGIS
-        level: 95%
-      - name: Python (Geospatial & Automation)
-        level: 92%
-      - name: Remote Sensing (Sentinel-2, Classification)
-        level: 90%
-      - name: SQL / Spatial Databases
-        level: 88%
-      - name: Google Earth Engine
-        level: 85%
-      - name: UAV Operations (eBeeX, Pix4D)
-        level: 85%
-      - name: RTK-GNSS (Trimble R10)
-        level: 82%
-      - name: Data Governance & Metadata
-        level: 80%
-      - name: R / MATLAB
-        level: 75%
-      - name: Tableau / Power BI
-        level: 70%
