@@ -30,9 +30,11 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Photographer (iPhone, Canon, GoPro)
+        - item: AI & Large Language Models
           link:
-        - item: Play games (Chess and Rummikub)
+        - item: AI Agents & Automation
+          link:
+        - item: Practical AI Applications
           link:
 
 career-profile:
