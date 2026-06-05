@@ -1,6 +1,6 @@
 sidebar:
     about: True
-    education: True
+    education: False
 
     # Profile information
     name: Thai Tran, PhD
