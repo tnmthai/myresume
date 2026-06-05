@@ -466,6 +466,21 @@ body { background: #f0f2f5; }
   text-decoration: none;
 }
 .contact-link-item i { width: 18px; text-align: center; color: #42A8C0; font-size: 14px; }
+.contact-note {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #edf0f4;
+}
+.contact-note p {
+  font-size: 13px;
+  color: #545E6C;
+  line-height: 1.6;
+  margin: 0 0 8px;
+}
+.contact-note p:last-child {
+  margin-bottom: 0;
+  color: #8895a7;
+}
 .contact-form .form-group { margin-bottom: 14px; }
 .contact-form label {
   display: block;
