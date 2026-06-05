@@ -474,8 +474,8 @@ body { background: #f0f2f5; }
 .contact-note p {
   font-size: 13px;
   color: #545E6C;
-  line-height: 1.6;
-  margin: 0 0 8px;
+  line-height: 1.8;
+  margin: 0 0 12px;
 }
 .contact-note p:last-child {
   margin-bottom: 0;
