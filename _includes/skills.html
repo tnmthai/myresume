@@ -1,12 +1,11 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
 <section class="skills-section section">
-  <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
+  <h2 class="section-title accordion-toggle open" onclick="toggleAccordion(this)">
     <span class="section-icon"><i class="fas fa-wrench"></i></span>
     {{ skills.title }}
     <span class="chevron"><i class="fas fa-chevron-down"></i></span>
   </h2>
-
   <div class="accordion-content">
     <div class="skills-grid">
       {% for skill in skills.toolset %}

@@ -16,6 +16,13 @@ jQuery(document).ready(function($) {
 
     });
 
+    /* Auto-expand sections with 'open' class */
+    $('.accordion-toggle.open').each(function() {
+        var content = this.nextElementSibling;
+        $(this).addClass('active');
+        $(content).addClass('open').show();
+    });
+
 });
 
 /* Accordion toggle */
@@ -26,10 +33,10 @@ function toggleAccordion(header) {
     if (isOpen) {
         header.classList.remove('active');
         content.classList.remove('open');
-        content.style.display = 'none';
+        $(content).slideUp(200);
     } else {
         header.classList.add('active');
         content.classList.add('open');
-        content.style.display = 'block';
+        $(content).slideDown(200);
     }
 }

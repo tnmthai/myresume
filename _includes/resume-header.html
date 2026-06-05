@@ -1,50 +1,25 @@
 {% assign sidebar = site.data.data.sidebar %}
 <header class="resume-header">
-  <div class="resume-header-content">
-    <div class="resume-header-left">
+  <div class="header-inner">
+    <div class="header-left">
       {% if sidebar.avatar %}
-      <img class="resume-avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="{{ sidebar.name }}" />
+      <img class="header-avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="{{ sidebar.name }}" />
       {% endif %}
-      <div class="resume-header-text">
-        <h1 class="resume-name">{{ sidebar.name }}</h1>
-        <p class="resume-tagline">{{ sidebar.tagline }}</p>
-        <div class="resume-header-badges">
-          <span class="badge"><i class="fas fa-map-marker-alt"></i> {{ sidebar.location }}</span>
-          <span class="badge"><i class="fas fa-globe"></i> {{ sidebar.timezone }}</span>
-        </div>
+      <div class="header-text">
+        <h1 class="header-name">{{ sidebar.name }}</h1>
+        <p class="header-title">{{ sidebar.tagline }}</p>
       </div>
     </div>
-    <div class="resume-header-right">
-      <div class="resume-contact-grid">
-        {% if sidebar.email %}
-        <a href="mailto:{{ sidebar.email }}" class="contact-item">
-          <i class="fas fa-envelope"></i>
-          <span>{{ sidebar.email }}</span>
-        </a>
-        {% endif %}
-        {% if sidebar.phone %}
-        <a href="tel:{{ sidebar.phone }}" class="contact-item">
-          <i class="fas fa-phone"></i>
-          <span>{{ sidebar.phone }}</span>
-        </a>
-        {% endif %}
-        {% if sidebar.linkedin %}
-        <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank" class="contact-item">
-          <i class="fab fa-linkedin"></i>
-          <span>LinkedIn</span>
-        </a>
-        {% endif %}
-        {% if sidebar.github %}
-        <a href="https://github.com/{{ sidebar.github }}" target="_blank" class="contact-item">
-          <i class="fab fa-github"></i>
-          <span>GitHub</span>
-        </a>
-        {% endif %}
+    <div class="header-right">
+      <div class="header-contact">
+        {% if sidebar.email %}<span><i class="fas fa-envelope"></i> {{ sidebar.email }}</span>{% endif %}
+        {% if sidebar.phone %}<span><i class="fas fa-phone"></i> {{ sidebar.phone }}</span>{% endif %}
+        {% if sidebar.location %}<span><i class="fas fa-map-marker-alt"></i> {{ sidebar.location }}</span>{% endif %}
       </div>
-      <div class="resume-actions">
-        <button onclick="window.print()" class="btn-export-pdf">
-          <i class="fas fa-file-pdf"></i> Export PDF
-        </button>
+      <div class="header-links">
+        {% if sidebar.linkedin %}<a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>{% endif %}
+        {% if sidebar.github %}<a href="https://github.com/{{ sidebar.github }}" target="_blank"><i class="fab fa-github"></i> GitHub</a>{% endif %}
+        <button onclick="window.print()" class="btn-pdf"><i class="fas fa-file-pdf"></i> PDF</button>
       </div>
     </div>
   </div>

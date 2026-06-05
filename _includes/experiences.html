@@ -1,12 +1,11 @@
 {% assign experiences = site.data.data.experiences %}
 {% if experiences %}
 <section class="section experiences-section">
-  <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
+  <h2 class="section-title accordion-toggle open" onclick="toggleAccordion(this)">
     <span class="section-icon"><i class="fas fa-briefcase"></i></span>
     {{ experiences.title }}
     <span class="chevron"><i class="fas fa-chevron-down"></i></span>
   </h2>
-
   <div class="accordion-content">
     {% for experience in experiences.info %}
     <div class="item">
