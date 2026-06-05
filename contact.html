@@ -1,39 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Send me a message! 😊</title>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="/medium">Blog</a></li>
-      <li><a href="/ical">Lunar Calendar</a></li>
-      <li><a href="/contact">Contact</a></li>
-      <li><a href="https://map.tnmthai.com" target="_blank">Maps</a></li>
-      <li><a href="/code"">Codes</a></li>
-    </ul>
-    </nav>
+---
+layout: default
+permalink: /contact
+---
 
-</head>
-<body>
-  <form action="https://formspree.io/f/mvgoqlkr" method="POST">
-    <div class="form-header">
-      <img src="https://i.imgur.com/6oLu5Lh.png" alt="Mail Icon" />
-      <h1>Send me a message! 😄</h1>
-      <p>I'd love to hear from you!</p>
+<nav class="site-nav">
+  <a href="/index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+  <a href="/medium" class="nav-link"><i class="fas fa-pen-fancy"></i> Blog</a>
+  <a href="/resume.html" class="nav-link"><i class="fas fa-file-alt"></i> Resume</a>
+  <a href="/code.html" class="nav-link"><i class="fas fa-code"></i> Codes</a>
+  <a href="/contact" class="nav-link active"><i class="fas fa-envelope"></i> Contact</a>
+  <a href="/for-hiring.html" class="nav-link"><i class="fas fa-briefcase"></i> For Hiring</a>
+</nav>
+
+<div class="contact-page">
+  <div class="contact-header">
+    <h1><i class="fas fa-paper-plane"></i> Get in Touch</h1>
+    <p>Have a question or want to work together? Send me a message!</p>
+  </div>
+
+  <div class="contact-grid">
+    <div class="contact-info-card">
+      <h3><i class="fas fa-info-circle"></i> Contact Info</h3>
+      <div class="contact-links">
+        <a href="mailto:me@tnmthai.com" class="contact-link-item">
+          <i class="fas fa-envelope"></i>
+          <span>me@tnmthai.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/tnmthai" target="_blank" class="contact-link-item">
+          <i class="fab fa-linkedin"></i>
+          <span>linkedin.com/in/tnmthai</span>
+        </a>
+        <a href="https://github.com/tnmthai" target="_blank" class="contact-link-item">
+          <i class="fab fa-github"></i>
+          <span>github.com/tnmthai</span>
+        </a>
+        <a href="https://tnmthai.medium.com" target="_blank" class="contact-link-item">
+          <i class="fab fa-medium"></i>
+          <span>tnmthai.medium.com</span>
+        </a>
+      </div>
     </div>
-    <label>
-      <span>Your Email 📨:</span>
-      <input type="email" name="email" placeholder="Enter your email" required>
-    </label>
-    <label>
-      <span>Your Message ✍️:</span>
-      <textarea name="message" rows="6" placeholder="Write your message here..." required></textarea>
-    </label>
-    <button type="submit">🚀 Send Message</button>
-    <div class="emoji">🌟✨💌</div>
-  </form>
-</body>
-</html>
+
+    <div class="contact-form-card">
+      <h3><i class="fas fa-envelope-open-text"></i> Send a Message</h3>
+      <form action="https://formspree.io/f/mvgoqlkr" method="POST" class="contact-form">
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" name="email" id="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea name="message" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>Last updated: June 2026</p>
+</footer>

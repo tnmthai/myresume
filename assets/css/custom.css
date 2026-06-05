@@ -589,3 +589,345 @@
     border-left-color: #999 !important;
   }
 }
+
+/* ======= Blog Page ======= */
+.blog-page {
+  padding: 0 44px 44px;
+}
+
+.blog-header {
+  padding: 28px 0 20px;
+  border-bottom: 2px solid #edf0f4;
+  margin-bottom: 8px;
+}
+
+.blog-header h1 {
+  font-size: 24px;
+  color: #3F4650;
+  margin: 0 0 6px;
+}
+
+.blog-header h1 i {
+  color: #42A8C0;
+  margin-right: 8px;
+}
+
+.blog-header p {
+  color: #97AAC3;
+  margin: 0;
+  font-size: 14px;
+}
+
+.badge-count {
+  font-size: 11px;
+  color: #97AAC3;
+  font-weight: 400;
+  margin-left: 8px;
+  background: #f0f2f5;
+  padding: 2px 10px;
+  border-radius: 12px;
+}
+
+.articles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.article-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #545E6C;
+  transition: all 0.2s ease;
+}
+
+.article-item:hover {
+  background: #f8fafb;
+  color: #3a8a9c;
+  text-decoration: none;
+}
+
+.article-num {
+  font-size: 12px;
+  color: #97AAC3;
+  font-weight: 600;
+  min-width: 24px;
+}
+
+.article-title {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.article-link {
+  font-size: 12px;
+  color: #ccc;
+  transition: color 0.2s ease;
+}
+
+.article-item:hover .article-link {
+  color: #42A8C0;
+}
+
+/* ======= Contact Page ======= */
+.contact-page {
+  padding: 0 44px 44px;
+}
+
+.contact-header {
+  padding: 28px 0 20px;
+  border-bottom: 2px solid #edf0f4;
+  margin-bottom: 24px;
+}
+
+.contact-header h1 {
+  font-size: 24px;
+  color: #3F4650;
+  margin: 0 0 6px;
+}
+
+.contact-header h1 i {
+  color: #42A8C0;
+  margin-right: 8px;
+}
+
+.contact-header p {
+  color: #97AAC3;
+  margin: 0;
+  font-size: 14px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 24px;
+}
+
+.contact-info-card,
+.contact-form-card {
+  background: #f8fafb;
+  border-radius: 12px;
+  padding: 28px;
+  border: 1px solid #edf0f4;
+}
+
+.contact-info-card h3,
+.contact-form-card h3 {
+  font-size: 16px;
+  color: #3F4650;
+  margin: 0 0 20px;
+}
+
+.contact-info-card h3 i,
+.contact-form-card h3 i {
+  color: #42A8C0;
+  margin-right: 8px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-link-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #545E6C;
+  transition: all 0.2s ease;
+  border: 1px solid #edf0f4;
+}
+
+.contact-link-item:hover {
+  border-color: #42A8C0;
+  color: #3a8a9c;
+  text-decoration: none;
+  background: #fff;
+}
+
+.contact-link-item i {
+  width: 20px;
+  text-align: center;
+  color: #42A8C0;
+  font-size: 15px;
+}
+
+.contact-link-item span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-form .form-group {
+  margin-bottom: 16px;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #3F4650;
+  margin-bottom: 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #dde2e8;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #3F4650;
+  background: #fff;
+  transition: border-color 0.2s ease;
+  font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #42A8C0;
+  box-shadow: 0 0 0 3px rgba(66, 168, 192, 0.1);
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.btn-submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #42A8C0;
+  color: #fff;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-submit:hover {
+  background: #3a8a9c;
+  transform: translateY(-1px);
+}
+
+/* ======= Hiring Page ======= */
+.hiring-page {
+  padding: 0 44px 44px;
+}
+
+.hiring-header {
+  padding: 28px 0 20px;
+  border-bottom: 2px solid #edf0f4;
+  margin-bottom: 8px;
+}
+
+.hiring-header h1 {
+  font-size: 24px;
+  color: #3F4650;
+  margin: 0 0 6px;
+}
+
+.hiring-header h1 i {
+  color: #42A8C0;
+  margin-right: 8px;
+}
+
+.hiring-header p {
+  color: #97AAC3;
+  margin: 0;
+  font-size: 14px;
+}
+
+.hiring-content {
+  padding: 4px 0;
+}
+
+.hiring-content p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #545E6C;
+}
+
+.fit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.fit-card {
+  background: #f8fafb;
+  border: 1px solid #edf0f4;
+  border-radius: 10px;
+  padding: 24px 20px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.fit-card:hover {
+  border-color: #42A8C0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(66, 168, 192, 0.12);
+}
+
+.fit-card i {
+  font-size: 28px;
+  color: #42A8C0;
+  margin-bottom: 12px;
+}
+
+.fit-card h4 {
+  font-size: 14px;
+  color: #3F4650;
+  margin: 0 0 6px;
+}
+
+.fit-card p {
+  font-size: 12px;
+  color: #97AAC3;
+  margin: 0;
+}
+
+/* Responsive - Blog/Contact/Hiring */
+@media (max-width: 767px) {
+  .blog-page,
+  .contact-page,
+  .hiring-page {
+    padding: 0 16px 28px;
+  }
+  .blog-header,
+  .contact-header,
+  .hiring-header {
+    padding: 20px 0 16px;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .fit-grid {
+    grid-template-columns: 1fr;
+  }
+  .article-item {
+    padding: 8px 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-page,
+  .contact-page,
+  .hiring-page {
+    padding: 0 32px 36px;
+  }
+}
