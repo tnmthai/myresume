@@ -2,83 +2,57 @@
 layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-    <meta name="keywords" content="Python, Remote Sensing, GIS, Geospatial Analysis, PyPI, Libraries, Badges">
-	<title>Thai Tran - Python Libraries</title>
-	<style>
-		table {
-			border-collapse: collapse;
-			width: 100%;
-		}
-		th, td {
-			text-align: left;
-			padding: 8px;
-			border-bottom: 1px solid #ddd;
-		}
-		th {
-			background-color: #f2f2f2;
-		}
-		img {
-			vertical-align: middle;
-		}
-	</style>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="/medium">Blog</a></li>			
-			<li><a href="/ical">Lunar Calendar</a></li>
-			<li><a href="/contact">Contact</a></li>
-			<li><a href="https://map.tnmthai.com" target="_blank">Maps</a></li>
-			<li><a href="/code"">Codes</a></li>
-		</ul>
-	</nav>
-</head>
-<body>
-	<h1>My Python Libraries</h1>
-	<table>
-		<thead>
-			<tr>
-				<th>No.</th>
-				<th>Library</th>
-				<th>Badges</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>1</td>
-				<td><a href="https://pypi.org/project/sen2p/" target="_blank">sen2p</a></td>
-				<td>
-					<img src="https://img.shields.io/pypi/v/sen2p.svg" alt="PyPI version">
-					<img src="https://img.shields.io/pypi/l/sen2p.svg" alt="License">
-					<a href="https://pepy.tech/projects/sen2p"><img src="https://static.pepy.tech/badge/sen2p" alt="PyPI Downloads"></a>
-				</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td><a href="https://pypi.org/project/rasteric/" target="_blank">rasteric</a></td>
-				<td>
-					<img src="https://img.shields.io/pypi/v/rasteric.svg" alt="PyPI version">					
-					<img src="https://img.shields.io/pypi/l/rasteric.svg" alt="License">
-					<a href="https://pepy.tech/projects/rasteric"><img src="https://static.pepy.tech/badge/rasteric" alt="PyPI Downloads"></a>
-				</td>
-			</tr>
-			<!-- <tr>
-				<td>3</td>
-				<td><a href="https://pypi.org/project/yourlibrary/" target="_blank">yourlibrary</a></td>
-				<td>
-					<img src="https://img.shields.io/pypi/v/yourlibrary.svg" alt="PyPI version">
-					<img src="https://img.shields.io/pypi/dm/yourlibrary.svg" alt="Downloads">
-					<img src="https://img.shields.io/pypi/l/yourlibrary.svg" alt="License">
-				</td>
-			</tr> -->
-		</tbody>
-	</table>
+<nav class="site-nav">
+  <a href="/index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+  <a href="/medium" class="nav-link"><i class="fas fa-pen-fancy"></i> Blog</a>
+  <a href="/resume.html" class="nav-link"><i class="fas fa-file-alt"></i> Resume</a>
+  <a href="/code.html" class="nav-link active"><i class="fas fa-code"></i> Codes</a>
+  <a href="/contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+  <a href="/for-hiring.html" class="nav-link"><i class="fas fa-briefcase"></i> For Hiring</a>
+</nav>
 
-	<footer>		
-		<p>&copy; <a href="https://www.tnmthai.com/libraries" target="_blank" rel="dofollow">Thai Tran</a>. All rights reserved.</p>
-	</footer>
-</body>
-</html>
+<div class="codes-page">
+  <div class="page-header">
+    <h1><i class="fas fa-code"></i> Python Libraries</h1>
+    <p>Open-source Python packages published on PyPI for geospatial analysis and remote sensing.</p>
+  </div>
+
+  <section class="section">
+    <h2 class="section-title accordion-toggle open" onclick="toggleAccordion(this)">
+      <span class="section-icon"><i class="fab fa-python"></i></span>
+      Published Packages
+      <span class="chevron"><i class="fas fa-chevron-down"></i></span>
+    </h2>
+    <div class="accordion-content">
+      <div class="packages-list">
+        <a href="https://pypi.org/project/sen2p/" target="_blank" class="package-card">
+          <div class="package-header">
+            <span class="package-name">sen2p</span>
+            <div class="package-badges">
+              <img src="https://img.shields.io/pypi/v/sen2p.svg" alt="PyPI version">
+              <img src="https://img.shields.io/pypi/l/sen2p.svg" alt="License">
+              <img src="https://static.pepy.tech/badge/sen2p" alt="Downloads">
+            </div>
+          </div>
+          <p class="package-desc">Search and download Sentinel-2 imagery from Microsoft Planetary Computer. Features: search by location/date/cloud cover, best item selection, band aliases, parallel download, CLI.</p>
+        </a>
+
+        <a href="https://pypi.org/project/rasteric/" target="_blank" class="package-card">
+          <div class="package-header">
+            <span class="package-name">rasteric</span>
+            <div class="package-badges">
+              <img src="https://img.shields.io/pypi/v/rasteric.svg" alt="PyPI version">
+              <img src="https://img.shields.io/pypi/l/rasteric.svg" alt="License">
+              <img src="https://static.pepy.tech/badge/rasteric" alt="Downloads">
+            </div>
+          </div>
+          <p class="package-desc">Python geospatial library for raster preprocessing, analysis, visualization. ~30 functions: vegetation indices, mosaic, classification, time-series, change detection, cloud masking, ML prep.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="site-footer">
+  <p>Last updated: June 2026</p>
+</footer>

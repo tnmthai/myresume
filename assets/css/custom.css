@@ -544,6 +544,171 @@ body { background: #f0f2f5; }
 .fit-card h4 { font-size: 13px; color: #1a2332; margin: 0 0 4px; }
 .fit-card p { font-size: 11px; color: #8895a7; margin: 0; }
 
+/* ======= Page Header (shared) ======= */
+.page-header {
+  padding: 24px 0 16px;
+  border-bottom: 1px solid #e8ecef;
+  margin-bottom: 16px;
+}
+.page-header h1 {
+  font-size: 20px;
+  color: #1a2332;
+  margin: 0 0 4px;
+}
+.page-header h1 i {
+  color: #42A8C0;
+  margin-right: 8px;
+}
+.page-header p {
+  color: #8895a7;
+  margin: 0;
+  font-size: 13px;
+}
+
+/* ======= Resume Page ======= */
+.resume-page { padding: 0 40px 40px; }
+.resume-actions-bar {
+  margin-bottom: 8px;
+}
+.resume-content {
+  padding: 4px 0;
+}
+.resume-content p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #545E6C;
+  text-align: justify;
+}
+.resume-entry {
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #f5f6f8;
+}
+.resume-entry:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.resume-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.resume-entry-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a2332;
+}
+.resume-entry-date {
+  font-size: 12px;
+  color: #a0aab4;
+  white-space: nowrap;
+}
+.resume-entry-org {
+  font-size: 12px;
+  color: #8895a7;
+  margin-bottom: 6px;
+}
+.resume-entry ul {
+  padding-left: 18px;
+  margin: 0;
+}
+.resume-entry li {
+  font-size: 13px;
+  color: #545E6C;
+  margin-bottom: 3px;
+  line-height: 1.55;
+}
+.resume-projects-label {
+  font-weight: 600;
+  font-size: 12px;
+  color: #3F4650;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.resume-project {
+  font-size: 12px;
+  color: #545E6C;
+  margin-bottom: 3px;
+  padding-left: 18px;
+  line-height: 1.5;
+}
+.resume-project strong { color: #1a2332; }
+.capabilities-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+}
+.cap-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: #545E6C;
+  padding: 8px 12px;
+  background: #f8fafb;
+  border-radius: 6px;
+}
+.cap-item i {
+  color: #42A8C0;
+  font-size: 13px;
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* ======= Codes Page ======= */
+.codes-page { padding: 0 40px 40px; }
+.packages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.package-card {
+  display: block;
+  padding: 20px;
+  background: #f8fafb;
+  border: 1px solid #edf0f4;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+.package-card:hover {
+  border-color: #42A8C0;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(66, 168, 192, 0.08);
+}
+.package-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.package-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a2332;
+}
+.package-badges {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.package-badges img {
+  height: 20px;
+}
+.package-desc {
+  font-size: 13px;
+  color: #545E6C;
+  line-height: 1.5;
+  margin: 0;
+}
+
 /* ======= Legacy Hide ======= */
 .footer, nav:not(.site-nav) { display: none; }
 .education-container.container-block { display: none; }
@@ -577,7 +742,7 @@ body { background: #f0f2f5; }
     white-space: nowrap;
   }
   .main-wrapper { padding: 16px 16px 28px; }
-  .blog-page, .contact-page, .hiring-page { padding: 0 16px 28px; }
+  .blog-page, .contact-page, .hiring-page, .resume-page, .codes-page { padding: 0 16px 28px; }
   .contact-grid { grid-template-columns: 1fr; }
   .fit-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
@@ -590,7 +755,7 @@ body { background: #f0f2f5; }
   .main-wrapper { padding: 20px 28px 36px; }
   .resume-header { padding: 24px 28px; }
   .site-nav { padding: 0 28px; }
-  .blog-page, .contact-page, .hiring-page { padding: 0 28px 36px; }
+  .blog-page, .contact-page, .hiring-page, .resume-page, .codes-page { padding: 0 28px 36px; }
 }
 
 /* ======= Print ======= */
