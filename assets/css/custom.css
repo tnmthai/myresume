@@ -61,7 +61,7 @@ body { background: #f0f2f5; }
   justify-content: flex-end;
 }
 .resume-header .header-contact span {
-  font-size: 12px;
+  font-size: 13px;
   color: rgba(255,255,255,0.6);
   display: flex;
   align-items: center;
@@ -124,10 +124,10 @@ body { background: #f0f2f5; }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 14px 16px;
+  padding: 14px 18px;
   font-size: 13px;
   font-weight: 500;
-  color: #8895a7;
+  color: #6b7a8d;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: all 0.15s ease;
@@ -150,9 +150,9 @@ body { background: #f0f2f5; }
   background: #fff;
 }
 .main-wrapper .section {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   border-bottom: 1px solid #f0f2f5;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
 }
 .main-wrapper .section:last-of-type {
   border-bottom: none;
@@ -348,7 +348,7 @@ body { background: #f0f2f5; }
 .site-footer p {
   margin: 0;
   font-size: 11px;
-  color: #a0aab4;
+  color: #8895a7;
 }
 
 /* ======= Blog Page ======= */
