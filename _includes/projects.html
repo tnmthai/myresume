@@ -2,39 +2,40 @@
 {% if projects %}
 <section class="section projects-section">
 
-  <h2 class="section-title">
+  <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
+    <span class="chevron"><i class="fas fa-chevron-down"></i></span>
   </h2>
 
-  {% if projects.intro %}
-  <div class="intro" style="text-align: justify;">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
-  <h3 class="section-subtitle">Projects</h3>
+  <div class="accordion-content">
+    {% if projects.intro %}
+    <div class="intro" style="text-align: justify;">
+        <p>{{ projects.intro }}</p>
+    </div>
+    {% endif %}
 
-  {% for project in projects.assignments %}
-    <div class="item">
+    {% for project in projects.assignments %}
+      <div class="item">
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
+        <span class="project-title">
+          {% if project.link %}
+          <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+          {% else %}
+          {{ project.title }}
+          {% endif %}
+        </span>
+
+        {% if project.abstract %}
+        <div class="project-abstract">{{ project.abstract }}</div>
         {% endif %}
-      </span>
 
-      {% if project.abstract %}
-      <div class="project-abstract">{{ project.abstract }}</div>
-      {% endif %}
+      </div>
+    {% endfor %}
+  </div>
 
-    </div><!--//item-->
-  {% endfor %}
-
-
-</section><!--//section-->
+</section>
 {% endif %}

@@ -1,38 +1,39 @@
 {% assign experiences = site.data.data.experiences %}
 {% if experiences %}
 <section class="section experiences-section">
-  <h2 class="section-title">
+  <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
     {{ experiences.title }}
+    <span class="chevron"><i class="fas fa-chevron-down"></i></span>
   </h2>
 
-  {% for experience in experiences.info %}
-  <div class="item">
+  <div class="accordion-content">
+    {% for experience in experiences.info %}
+    <div class="item">
 
-    <div class="meta">
+      <div class="meta">
 
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+        <div class="upper-row">
+          <h3 class="job-title">{{ experience.role }}</h3>
+          <div class="time">{{ experience.time }}</div>
+        </div>
 
-      <div class="company">{{ experience.company }}</div>
+        <div class="company">{{ experience.company }}</div>
 
-    </div><!--//meta-->
+      </div>
 
-    {% if experience.details %}
-    <div class="details" style="text-align: justify;">
+      {% if experience.details %}
+      <div class="details" style="text-align: justify;">
+        {{ experience.details | markdownify }}
+      </div>
+      {% endif %}
 
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
+    </div>
+    {% endfor %}
+  </div>
 
-  </div><!--//item-->
-  {% endfor %}
-
-</section><!--//section-->
+</section>
 {% endif %}
-

@@ -33,7 +33,7 @@ p {
   line-height: 1.5;
 }
 
-.wrapper {  
+.wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   background: $theme-color;
@@ -41,6 +41,16 @@ p {
   margin: 0 auto;
   position: relative;
   @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+/* ======= Resume Layout (no sidebar) ======= */
+.wrapper.resume-layout {
+  display: block;
+  max-width: 960px;
+  background: #fff;
+  @include box-shadow(0px 2px 8px rgba(0, 0, 0, 0.12));
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .sidebar-wrapper {
@@ -301,4 +311,154 @@ nav li a {
 
 nav li a:hover {
   background-color: #42A8C0;
+}
+
+/* ======= Resume Header ======= */
+.resume-header {
+  background: $theme-color;
+  color: #fff;
+  padding: 36px 40px 28px;
+
+  .resume-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .resume-header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .resume-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid rgba(255,255,255,0.3);
+    object-fit: cover;
+  }
+
+  .resume-name {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    color: #fff;
+  }
+
+  .resume-tagline {
+    font-size: 16px;
+    color: rgba(255,255,255,0.7);
+    margin: 0;
+    font-weight: 400;
+  }
+
+  .resume-contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 6px;
+      font-size: 14px;
+      color: rgba(255,255,255,0.85);
+      &:last-child { margin-bottom: 0; }
+    }
+
+    i {
+      width: 18px;
+      text-align: center;
+      margin-right: 8px;
+      color: rgba(255,255,255,0.6);
+    }
+
+    a {
+      color: rgba(255,255,255,0.85);
+      &:hover { color: #fff; text-decoration: underline; }
+    }
+  }
+
+  .resume-actions {
+    margin-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding-top: 14px;
+  }
+
+  .btn-export-pdf {
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    @include transition(all 0.2s ease);
+
+    &:hover {
+      background: rgba(255,255,255,0.25);
+      border-color: rgba(255,255,255,0.5);
+    }
+
+    i {
+      margin-right: 6px;
+    }
+  }
+}
+
+/* ======= Accordion ======= */
+.accordion-toggle {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  @include transition(color 0.2s ease);
+
+  &:hover {
+    color: darken($theme-color, 25%);
+  }
+
+  .chevron {
+    margin-left: auto;
+    font-size: 14px;
+    @include transition(transform 0.25s ease);
+    color: $text-grey;
+  }
+
+  &.active .chevron {
+    @include transform(rotate(180deg));
+  }
+}
+
+.accordion-content {
+  display: none;
+  @include animation(fadeIn, 0.3s);
+}
+
+.accordion-content.open {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ======= Print Styles ======= */
+@media print {
+  body { padding: 0 !important; background: #fff !important; }
+  .wrapper.resume-layout { box-shadow: none !important; max-width: unset !important; border-radius: 0 !important; }
+  .resume-header { padding: 20px 30px 16px !important; }
+  .resume-avatar { filter: grayscale(1); -webkit-filter: grayscale(1); }
+  .resume-actions { display: none !important; }
+  .accordion-content { display: block !important; }
+  .accordion-toggle .chevron { display: none !important; }
+  .accordion-toggle { cursor: default !important; }
+  .main-wrapper { padding: 30px !important; }
+  .main-wrapper .time { float: right; color: black !important; -webkit-print-color-adjust: exact; }
+  .skillset .level-bar-inner { background-color: black !important; -webkit-print-color-adjust: exact; }
+  footer { display: none !important; }
+  .fa-inverse, .fa-inverse:after, .fa-inverse:before { color: #ffffff !important; }
 }

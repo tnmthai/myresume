@@ -1,0 +1,38 @@
+{% assign sidebar = site.data.data.sidebar %}
+<header class="resume-header">
+  <div class="resume-header-content">
+    <div class="resume-header-left">
+      {% if sidebar.avatar %}
+      <img class="resume-avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="{{ sidebar.name }}" />
+      {% endif %}
+      <div class="resume-header-text">
+        <h1 class="resume-name">{{ sidebar.name }}</h1>
+        <p class="resume-tagline">{{ sidebar.tagline }}</p>
+      </div>
+    </div>
+    <div class="resume-header-right">
+      <ul class="resume-contact-list">
+        {% if sidebar.email %}
+        <li><i class="fas fa-envelope"></i> <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a></li>
+        {% endif %}
+        {% if sidebar.phone %}
+        <li><i class="fas fa-phone"></i> {{ sidebar.phone }}</li>
+        {% endif %}
+        {% if sidebar.location %}
+        <li><i class="fas fa-map-marker-alt"></i> {{ sidebar.location }}</li>
+        {% endif %}
+        {% if sidebar.linkedin %}
+        <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">linkedin.com/in/{{ sidebar.linkedin }}</a></li>
+        {% endif %}
+        {% if sidebar.github %}
+        <li><i class="fab fa-github"></i> <a href="https://github.com/{{ sidebar.github }}" target="_blank">github.com/{{ sidebar.github }}</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+  <div class="resume-actions">
+    <button onclick="window.print()" class="btn-export-pdf">
+      <i class="fas fa-file-pdf"></i> Export PDF
+    </button>
+  </div>
+</header>

@@ -2,31 +2,34 @@
 {% if publications %}
 <section class="section publications-section">
 
-  <h2 class="section-title">
+  <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
     </span>
     {{ publications.title }}
+    <span class="chevron"><i class="fas fa-chevron-down"></i></span>
   </h2>
 
-  {% if publications.intro %}
-  <div class="intro" style="text-align: justify;">
-    {{ publications.intro | markdownify }}
-  </div><!--//intro-->
-  {% endif %}
-
-  {% for publication in publications.papers %}
-  <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-    {% else %}
-      <li>{{ publication.title }}</li>
+  <div class="accordion-content">
+    {% if publications.intro %}
+    <div class="intro" style="text-align: justify;">
+      {{ publications.intro | markdownify }}
+    </div>
     {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
-  </div><!--//item-->
-  {% endfor %}
 
-</section><!--//section-->
+    {% for publication in publications.papers %}
+    <div class="item">
+      {% if publication.link %}
+        <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+      {% else %}
+        <li>{{ publication.title }}</li>
+      {% endif %}
+      <div class="publication-authors">{{ publication.authors }}</div>
+      <div class="publication-conference">{{ publication.conference }}</div>
+    </div>
+    {% endfor %}
+  </div>
+
+</section>
 {% endif %}

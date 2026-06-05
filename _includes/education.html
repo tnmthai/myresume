@@ -12,43 +12,46 @@
       <h4 class="degree">{{ graduation.degree }}</h4>
       <h5 class="meta">{{ graduation.university }}</h5>
       <div class="time">{{ graduation.time }}</div>
-    </div><!--//item-->
+    </div>
     {% endfor %}
 
-  </div><!--//education-container-->
+  </div>
   {% else %}
   <section class="section educations-section">
 
-    <h2 class="section-title">
+    <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
       <span class="fa-stack fa-xs">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
       </span>
       {{ education.title }}
+      <span class="chevron"><i class="fas fa-chevron-down"></i></span>
     </h2>
 
-    {% for graduation in education.info %}
-    <div class="item">
+    <div class="accordion-content">
+      {% for graduation in education.info %}
+      <div class="item">
 
-      <div class="meta">
+        <div class="meta">
 
-        <div class="upper-row">
-          <h3 class="degree">{{ graduation.degree }}</h3>
-          <div class="time">{{ graduation.time }}</div>
-        </div><!--//upper-row-->
+          <div class="upper-row">
+            <h3 class="degree">{{ graduation.degree }}</h3>
+            <div class="time">{{ graduation.time }}</div>
+          </div>
 
-        <div class="university">{{ graduation.university }}</div>
-      </div><!--//meta-->
+          <div class="university">{{ graduation.university }}</div>
+        </div>
 
-      {% if graduation.details %}
-      <div class="details">
-        {{ graduation.details | markdownify }}
-      </div><!--//details-->
-      {% endif %}
+        {% if graduation.details %}
+        <div class="details">
+          {{ graduation.details | markdownify }}
+        </div>
+        {% endif %}
 
-    </div><!--//item-->
-    {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
 
-  </section><!--//section-->
+  </section>
   {% endif %}
 {% endif %}

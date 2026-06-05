@@ -2,16 +2,16 @@
 {% if skills %}
 <section class="skills-section section">
 
-  <h2 class="section-title">
+  <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
     </span>
     {{ skills.title }}
+    <span class="chevron"><i class="fas fa-chevron-down"></i></span>
   </h2>
 
-  <div class="skillset" style="text-align: justify;">
-
+  <div class="accordion-content" style="text-align: justify;">
     {% for skill in skills.toolset %}
     <div class="item">
 
@@ -20,12 +20,11 @@
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
+      </div>
 
-    </div><!--//item-->
+    </div>
     {% endfor %}
-
   </div>
 
-</section><!--//skills-section-->
+</section>
 {% endif %}
