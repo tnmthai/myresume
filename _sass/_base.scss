@@ -503,7 +503,7 @@ p {
 
 .accordion-content.open {
   display: block;
-  @include animation(slideDown, 0.3s ease);
+  animation: slideDown 0.3s ease;
 }
 
 @keyframes slideDown {
