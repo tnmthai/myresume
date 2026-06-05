@@ -1,12 +1,8 @@
 {% assign oss = site.data.data.oss %}
 {% if oss %}
 <section class="section oss-section">
-
   <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
-    </span>
+    <span class="section-icon"><i class="fas fa-box-open"></i></span>
     {{ oss.title }}
     <span class="chevron"><i class="fas fa-chevron-down"></i></span>
   </h2>
@@ -17,25 +13,20 @@
       <p>{{ oss.intro }}</p>
     </div>
     {% endif %}
-
     {% for contribution in oss.contributions %}
     <div class="item">
-
       <span class="project-title" style="text-align: justify;">
         {% if contribution.link %}
-        <a href="{{ project.link }}" target="_blank">{{ contribution.title }}</a>
+        <a href="{{ contribution.link }}" target="_blank">{{ contribution.title }}</a>
         {% else %}
         {{ contribution.title }}
         {% endif %}
       </span>
-
       {% if contribution.tagline %}
-      - <span class="project-tagline">{{ contribution.tagline }}</span>
+      <div class="project-abstract">{{ contribution.tagline }}</div>
       {% endif %}
-
     </div>
     {% endfor %}
   </div>
-
 </section>
 {% endif %}

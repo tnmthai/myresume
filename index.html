@@ -2,37 +2,30 @@
 layout: default
 ---
 
-<section class="section" style="padding-bottom: 0; margin-bottom: 8px;">
-  <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom: 10px;">
-    <a href="/index.html" style="border:1px solid #ddd;color:#444;padding:6px 10px;border-radius:6px;text-decoration:none;">Home</a>
-    <a href="/medium" style="border:1px solid #ddd;color:#444;padding:6px 10px;border-radius:6px;text-decoration:none;">Blog</a>
-    <a href="/ical" style="border:1px solid #ddd;color:#444;padding:6px 10px;border-radius:6px;text-decoration:none;">Lunar Calendar</a>
-    <a href="/contact" style="border:1px solid #ddd;color:#444;padding:6px 10px;border-radius:6px;text-decoration:none;">Contact</a>
-    <a href="https://map.tnmthai.com" target="_blank" style="border:1px solid #ddd;color:#444;padding:6px 10px;border-radius:6px;text-decoration:none;">Maps</a>
-    <a href="/code.html" style="border:1px solid #ddd;color:#444;padding:6px 10px;border-radius:6px;text-decoration:none;">Codes</a>
-    <a href="/resume.html" style="border:1px solid #ddd;color:#444;padding:6px 10px;border-radius:6px;text-decoration:none;">📄 Resume</a>
-  </div>
-</section>
+<nav class="site-nav">
+  <a href="/index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+  <a href="/medium" class="nav-link"><i class="fas fa-pen-fancy"></i> Blog</a>
+  <a href="/resume.html" class="nav-link"><i class="fas fa-file-alt"></i> Resume</a>
+  <a href="/code.html" class="nav-link"><i class="fas fa-code"></i> Codes</a>
+  <a href="/ical" class="nav-link"><i class="fas fa-calendar-alt"></i> Lunar Calendar</a>
+  <a href="/contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+  <a href="https://map.tnmthai.com" target="_blank" class="nav-link"><i class="fas fa-map"></i> Maps</a>
+</nav>
 
-<section class="section" style="padding-bottom: 8px;">
-  <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom: 8px;">
-    <a href="mailto:me@tnmthai.com" style="background:#2d7788;color:#fff;padding:8px 12px;border-radius:6px;text-decoration:none;">Email me for research roles</a>
-    <a href="https://www.linkedin.com/in/tnmthai" target="_blank" style="border:1px solid #2d7788;color:#2d7788;padding:8px 12px;border-radius:6px;text-decoration:none;">LinkedIn</a>
-    <a href="/for-hiring.html" style="border:1px solid #2d7788;color:#2d7788;padding:8px 12px;border-radius:6px;text-decoration:none;">For Hiring</a>
-    <a href="/resume.html" style="border:1px solid #2d7788;color:#2d7788;padding:8px 12px;border-radius:6px;text-decoration:none;">📄 Resume</a>
-  </div>
-</section>
+<div class="quick-actions">
+  <a href="mailto:me@tnmthai.com" class="btn-primary"><i class="fas fa-paper-plane"></i> Email me for research roles</a>
+  <a href="https://www.linkedin.com/in/tnmthai" target="_blank" class="btn-outline"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  <a href="/for-hiring.html" class="btn-outline"><i class="fas fa-briefcase"></i> For Hiring</a>
+</div>
 
 {% include career-profile.html %}
-
 {% include education.html %}
-
 {% include experiences.html %}
 {% include projects.html %}
 {% include publications.html %}
 {% include skills.html %}
 {% include oss-contributions.html %}
 
-<section class="section" style="padding-top: 16px; text-align: center; font-size: 11px; color: #999;">
-  Last updated: 5 June 2026
-</section>
+<footer class="site-footer">
+  <p>Last updated: June 2026 &middot; Built with Jekyll &middot; Hosted on GitHub Pages</p>
+</footer>

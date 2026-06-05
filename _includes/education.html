@@ -2,11 +2,7 @@
 {% if education %}
   {% if site.data.data.sidebar.education %}
   <div class="education-container container-block">
-
-    <h2 class="container-block-title">
-      {{ education.title }}
-    </h2>
-
+    <h2 class="container-block-title">{{ education.title }}</h2>
     {% for graduation in education.info %}
     <div class="item">
       <h4 class="degree">{{ graduation.degree }}</h4>
@@ -14,16 +10,11 @@
       <div class="time">{{ graduation.time }}</div>
     </div>
     {% endfor %}
-
   </div>
   {% else %}
   <section class="section educations-section">
-
     <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
-      <span class="fa-stack fa-xs">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
-      </span>
+      <span class="section-icon"><i class="fas fa-graduation-cap"></i></span>
       {{ education.title }}
       <span class="chevron"><i class="fas fa-chevron-down"></i></span>
     </h2>
@@ -31,27 +22,21 @@
     <div class="accordion-content">
       {% for graduation in education.info %}
       <div class="item">
-
         <div class="meta">
-
           <div class="upper-row">
             <h3 class="degree">{{ graduation.degree }}</h3>
             <div class="time">{{ graduation.time }}</div>
           </div>
-
           <div class="university">{{ graduation.university }}</div>
         </div>
-
         {% if graduation.details %}
         <div class="details">
           {{ graduation.details | markdownify }}
         </div>
         {% endif %}
-
       </div>
       {% endfor %}
     </div>
-
   </section>
   {% endif %}
 {% endif %}

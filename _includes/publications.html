@@ -1,12 +1,8 @@
 {% assign publications = site.data.data.publications %}
 {% if publications %}
 <section class="section publications-section">
-
   <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-    </span>
+    <span class="section-icon"><i class="fas fa-file-alt"></i></span>
     {{ publications.title }}
     <span class="chevron"><i class="fas fa-chevron-down"></i></span>
   </h2>
@@ -17,19 +13,17 @@
       {{ publications.intro | markdownify }}
     </div>
     {% endif %}
-
     {% for publication in publications.papers %}
     <div class="item">
       {% if publication.link %}
-        <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+        <a href="{{ publication.link }}">{{ publication.title }}</a>
       {% else %}
-        <li>{{ publication.title }}</li>
+        {{ publication.title }}
       {% endif %}
       <div class="publication-authors">{{ publication.authors }}</div>
       <div class="publication-conference">{{ publication.conference }}</div>
     </div>
     {% endfor %}
   </div>
-
 </section>
 {% endif %}
