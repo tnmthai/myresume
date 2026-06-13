@@ -146,6 +146,28 @@ publications:
 skills:
     title: Technical Skills
     toolset:
+      - name: ArcGIS Pro / ESRI
+        level: 95%
+      - name: QGIS
+        level: 95%
+      - name: Python (Geospatial & Automation)
+        level: 92%
+      - name: Remote Sensing (Sentinel-2, Classification)
+        level: 90%
+      - name: SQL / Spatial Databases
+        level: 88%
+      - name: Google Earth Engine
+        level: 85%
+      - name: UAV Operations (eBeeX, Pix4D)
+        level: 85%
+      - name: RTK-GNSS (Trimble R10)
+        level: 82%
+      - name: Data Governance & Metadata
+        level: 80%
+      - name: R / MATLAB
+        level: 75%
+      - name: Tableau / Power BI
+        level: 70%
 
 conference-reviewing:
     title: Conference Reviewing
@@ -170,32 +192,6 @@ conference-reviewing:
         role: PC Member — Intelligent Systems & Data Science for Biomedical Research
       - conference: ISDS 2023
         role: PC Member — Main Conference
-
-tools:
-    title: Technical Skills
-    toolset:
-      - name: ArcGIS Pro / ESRI
-        level: 95%
-      - name: QGIS
-        level: 95%
-      - name: Python (Geospatial & Automation)
-        level: 92%
-      - name: Remote Sensing (Sentinel-2, Classification)
-        level: 90%
-      - name: SQL / Spatial Databases
-        level: 88%
-      - name: Google Earth Engine
-        level: 85%
-      - name: UAV Operations (eBeeX, Pix4D)
-        level: 85%
-      - name: RTK-GNSS (Trimble R10)
-        level: 82%
-      - name: Data Governance & Metadata
-        level: 80%
-      - name: R / MATLAB
-        level: 75%
-      - name: Tableau / Power BI
-        level: 70%
 
 oss:
     title: Medium Articles
