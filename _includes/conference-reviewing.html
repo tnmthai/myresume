@@ -1,0 +1,22 @@
+{% if site.data.data['conference-reviewing'] %}
+<section class="section conference-reviewing-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-award fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ site.data.data['conference-reviewing'].title }}
+  </h2>
+  {% if site.data.data['conference-reviewing'].intro %}
+  <div class="section-intro">{{ site.data.data['conference-reviewing'].intro }}</div>
+  {% endif %}
+  <div class="conference-list">
+    {% for item in site.data.data['conference-reviewing'].info %}
+    <div class="conference-item">
+      <span class="conference-name">{{ item.conference }}</span>
+      <span class="conference-role">{{ item.role }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

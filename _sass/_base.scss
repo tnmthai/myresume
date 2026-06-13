@@ -242,6 +242,35 @@ p {
       margin-bottom: 15px;
     }
   }
+  
+  .conference-reviewing-section {
+    .section-intro {
+      margin-bottom: 20px;
+    }
+    .conference-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .conference-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      background: $smoky-white;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    .conference-name {
+      font-weight: 600;
+      color: $text-color;
+    }
+    .conference-role {
+      color: $grey;
+      font-size: 13px;
+      text-align: right;
+    }
+  }
 }
 
 .skillset {
