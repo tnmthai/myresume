@@ -10,11 +10,14 @@
   <div class="section-intro">{{ site.data.data['conference-reviewing'].intro }}</div>
   {% endif %}
   <div class="conference-list">
+    {% assign num = 1 %}
     {% for item in site.data.data['conference-reviewing'].info %}
     <div class="conference-item{% if item.highlight %} highlight{% endif %}">
+      <span class="conference-num">{{ num }}</span>
       <span class="conference-name">{{ item.conference }}</span>
       <span class="conference-role">{{ item.role }}</span>
     </div>
+    {% assign num = num | plus: 1 %}
     {% endfor %}
   </div>
   </div>
