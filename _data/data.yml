@@ -170,10 +170,15 @@ skills:
         level: 70%
 
 conference-reviewing:
-    title: Conference Reviewing
+    title: Peer Reviewing
     intro: |
-        Active reviewer and program committee member for international conferences in AI, machine learning, and data science.
+        Active reviewer and program committee member for international conferences and journals in AI, machine learning, and data science.
     info:
+      - conference: "<strong>Biosystems</strong> (Elsevier)"
+        role: Journal Reviewer — 2026
+        highlight: true
+      - conference: "SN Computer Science (Springer Nature)"
+        role: Journal Reviewer — 2025
       - conference: ICONIP 2026
         role: Subreviewer / External Reviewer
       - conference: ICCI 2026

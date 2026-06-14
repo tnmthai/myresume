@@ -260,6 +260,13 @@ p {
       background: $smoky-white;
       border-radius: 4px;
       font-size: 14px;
+      &.highlight {
+        background: lighten($theme-color, 40%);
+        border-left: 3px solid $theme-color;
+        .conference-name {
+          color: $theme-color;
+        }
+      }
     }
     .conference-name {
       font-weight: 600;
