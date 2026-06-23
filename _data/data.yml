@@ -179,26 +179,18 @@ conference-reviewing:
         highlight: true
       - conference: "AI, Computer Science and Robotics Technology"
         role: Journal Reviewer — 2026
-      - conference: ICONIP 2026
-        role: Subreviewer / External Reviewer
-      - conference: ICCI 2026
-        role: PC Member — Main Track
-      - conference: FJCAI 2026
+      - conference: "ICONIP"
+        role: Subreviewer / External Reviewer — 2024, 2026
+      - conference: "ICCI"
+        role: PC Member — 2025, 2026
+      - conference: "FJCAI 2026"
         role: PC Member — Advanced AI Models & Emerging Technologies Track
       - conference: "SN Computer Science (Springer Nature)"
         role: Journal Reviewer — 2025
-      - conference: ISDS 2025
-        role: PC Member — Special Sessions (AAB & MIS)
-      - conference: ICCI 2025
-        role: PC Member — Main Track & DMRLIP Special Session
-      - conference: ICONIP 2024
-        role: Subreviewer / External Reviewer
-      - conference: ISDS 2024
-        role: PC Member — Main Track
-      - conference: ACIIDS 2024
+      - conference: "ISDS"
+        role: PC Member — 2023, 2024, 2025
+      - conference: "ACIIDS 2024"
         role: PC Member — Intelligent Systems & Data Science for Biomedical Research
-      - conference: ISDS 2023
-        role: PC Member — Main Conference
 
 certificates:
     title: Certifications
