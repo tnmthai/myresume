@@ -232,7 +232,8 @@ certificates:
               "Complete Guide to R: Wrangling, Visualizing, and Modeling Data"
             provider: LinkedIn Learning
             date: Oct 2024
-          - name: R for Data Science: Analysis and Visualization
+          - name: |
+              "R for Data Science: Analysis and Visualization"
             provider: LinkedIn Learning
             date: Oct 2024
           - name: Data Analysis with Python
