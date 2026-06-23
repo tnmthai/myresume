@@ -228,7 +228,8 @@ certificates:
       - category: "Data Science & Analytics"
         icon: "fas fa-chart-bar"
         items:
-          - name: Complete Guide to R: Wrangling, Visualizing, and Modeling Data
+          - name: |
+              "Complete Guide to R: Wrangling, Visualizing, and Modeling Data"
             provider: LinkedIn Learning
             date: Oct 2024
           - name: R for Data Science: Analysis and Visualization
