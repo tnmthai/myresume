@@ -284,6 +284,39 @@ p {
       text-align: right;
       white-space: nowrap;
     }
+    .conference-detail-toggle {
+      flex-shrink: 0;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: $theme-color;
+      font-size: 14px;
+      padding: 0 4px;
+      &:hover {
+        color: darken($theme-color, 15%);
+      }
+    }
+    .conference-item.has-detail {
+      flex-wrap: wrap;
+    }
+    .conference-detail {
+      display: none;
+      width: 100%;
+      padding: 10px 12px;
+      margin-top: 6px;
+      background: #fff;
+      border: 1px solid darken($smoky-white, 10%);
+      border-radius: 4px;
+      font-size: 13px;
+      line-height: 1.6;
+      color: $text-color-secondary;
+      &.open {
+        display: block;
+      }
+      strong {
+        color: $text-color;
+      }
+    }
   }
 }
 

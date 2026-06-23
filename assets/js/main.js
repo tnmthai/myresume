@@ -25,6 +25,18 @@ jQuery(document).ready(function($) {
 
 });
 
+/* Conference detail toggle */
+function toggleConferenceDetail(btn) {
+    var detail = btn.nextElementSibling;
+    if (detail.classList.contains('open')) {
+        detail.classList.remove('open');
+        $(detail).slideUp(200);
+    } else {
+        detail.classList.add('open');
+        $(detail).slideDown(200);
+    }
+}
+
 /* Accordion toggle */
 function toggleAccordion(header) {
     var content = header.nextElementSibling;

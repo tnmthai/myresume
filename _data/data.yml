@@ -179,6 +179,7 @@ conference-reviewing:
         highlight: true
       - conference: "AI, Computer Science and Robotics Technology"
         role: Journal Reviewer — 2026
+        detail: "<strong>AI, Computer Science and Robotics Technology</strong> — Continuous publication, ISSN 2754-6292 (Online). DOI: 10.5772/acrt. Started 2022, Volume 5. CC BY 4.0, Rejection rate 50%, Turnover time 98 days."
       - conference: ICONIP 2026
         role: Subreviewer / External Reviewer
       - conference: ICCI 2026

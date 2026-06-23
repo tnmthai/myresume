@@ -13,10 +13,14 @@
     {% assign nums = "1️⃣,2️⃣,3️⃣,4️⃣,5️⃣,6️⃣,7️⃣,8️⃣,9️⃣,🔟,1️⃣1️⃣,1️⃣2️⃣" | split: "," %}
     {% assign idx = 0 %}
     {% for item in site.data.data['conference-reviewing'].info %}
-    <div class="conference-item{% if item.highlight %} highlight{% endif %}">
+    <div class="conference-item{% if item.highlight %} highlight{% endif %}{% if item.detail %} has-detail{% endif %}">
       <span class="conference-num">{{ nums[idx] }}</span>
       <span class="conference-name">{{ item.conference }}</span>
       <span class="conference-role">{{ item.role }}</span>
+      {% if item.detail %}
+      <button class="conference-detail-toggle" onclick="toggleConferenceDetail(this)" title="View details"><i class="fas fa-info-circle"></i></button>
+      <div class="conference-detail">{{ item.detail }}</div>
+      {% endif %}
     </div>
     {% assign idx = idx | plus: 1 %}
     {% endfor %}
