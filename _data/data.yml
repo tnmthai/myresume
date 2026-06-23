@@ -177,14 +177,16 @@ conference-reviewing:
       - conference: "<strong>Biosystems</strong> (Elsevier)"
         role: Journal Reviewer — 2026
         highlight: true
-      - conference: "SN Computer Science (Springer Nature)"
-        role: Journal Reviewer — 2025
+      - conference: "AI, Computer Science and Robotics Technology"
+        role: Journal Reviewer — 2026
       - conference: ICONIP 2026
         role: Subreviewer / External Reviewer
       - conference: ICCI 2026
         role: PC Member — Main Track
       - conference: FJCAI 2026
         role: PC Member — Advanced AI Models & Emerging Technologies Track
+      - conference: "SN Computer Science (Springer Nature)"
+        role: Journal Reviewer — 2025
       - conference: ISDS 2025
         role: PC Member — Special Sessions (AAB & MIS)
       - conference: ICCI 2025
@@ -197,6 +199,146 @@ conference-reviewing:
         role: PC Member — Intelligent Systems & Data Science for Biomedical Research
       - conference: ISDS 2023
         role: PC Member — Main Conference
+
+certificates:
+    title: Certifications
+    groups:
+      - category: "GIS & Geospatial"
+        icon: "fas fa-globe-americas"
+        items:
+          - name: Geographic Information Systems (GIS)
+            provider: Coursera / STIC
+            date: Dec 2024
+          - name: ArcGIS Pro Essential Training
+            provider: LinkedIn Learning
+            date: Oct 2024
+          - name: Geospatial Data Analytics Essential Training
+            provider: LinkedIn Learning
+            date: Oct 2024
+          - name: Science and Technology Track – Geoinformatics
+            provider: Arizona State University
+            date: Aug 2023
+          - name: GIS Data Formats, Design and Quality
+            provider: Coursera
+            date: Jul 2023
+          - name: Fundamentals of GIS
+            provider: Coursera
+            date: Jul 2023
+
+      - category: "Data Science & Analytics"
+        icon: "fas fa-chart-bar"
+        items:
+          - name: Complete Guide to R: Wrangling, Visualizing, and Modeling Data
+            provider: LinkedIn Learning
+            date: Oct 2024
+          - name: R for Data Science: Analysis and Visualization
+            provider: LinkedIn Learning
+            date: Oct 2024
+          - name: Data Analysis with Python
+            provider: IBM
+            date: Dec 2023
+          - name: Become a Data Analyst
+            provider: LinkedIn Learning
+            date: Dec 2021
+          - name: Learning Data Analytics: Foundations
+            provider: LinkedIn Learning
+            date: Dec 2021
+          - name: Learning Data Analytics Part 2: Extending and Applying Core Knowledge
+            provider: LinkedIn Learning
+            date: Dec 2021
+          - name: Data Analysis and Interpretation Capstone
+            provider: Coursera
+            date: Jun 2021
+          - name: Data Analysis Tools
+            provider: Coursera
+            date: Feb 2021
+          - name: Data Management and Visualization
+            provider: Coursera
+            date: Feb 2021
+          - name: Excel Statistics Essential Training
+            provider: LinkedIn Learning
+            date: Dec 2021
+
+      - category: "Machine Learning & AI"
+        icon: "fas fa-brain"
+        items:
+          - name: Analyze Datasets and Train ML Models using AutoML
+            provider: Coursera
+            date: Nov 2023
+          - name: Introduction to Machine Learning on AWS
+            provider: Coursera
+            date: Oct 2023
+          - name: "Deep Learning with PyTorch: Generative Adversarial Network"
+            provider: Coursera
+            date: Dec 2021
+          - name: Machine Learning for Data Analysis
+            provider: Coursera
+            date: Mar 2021
+          - name: Azure Machine Learning Development: Basic Concepts
+            provider: LinkedIn Learning
+            date: Dec 2021
+
+      - category: "Data Engineering & Databases"
+        icon: "fas fa-database"
+        items:
+          - name: ETL and Data Pipelines with Shell, Airflow and Kafka
+            provider: Coursera
+            date: Jan 2024
+          - name: Introduction to Relational Database and SQL
+            provider: Coursera
+            date: Jul 2023
+
+      - category: "Business Intelligence & Visualization"
+        icon: "fas fa-chart-line"
+        items:
+          - name: Data Visualization with Tableau Specialization
+            provider: Coursera
+            date: Mar 2021
+          - name: Creating Dashboards and Storytelling with Tableau
+            provider: Coursera
+            date: Mar 2021
+          - name: Visual Analytics with Tableau
+            provider: Coursera
+            date: Mar 2021
+          - name: Essential Design Principles for Tableau
+            provider: Coursera
+            date: Mar 2021
+          - name: Fundamentals of Visualization with Tableau
+            provider: Coursera
+            date: Mar 2021
+          - name: Getting Started with Power BI Desktop
+            provider: Coursera
+            date: Apr 2021
+          - name: Power BI Data Methods
+            provider: LinkedIn Learning
+            date: Apr 2021
+
+      - category: "Cloud Computing"
+        icon: "fas fa-cloud"
+        items:
+          - name: AWS Cloud Technical Essentials
+            provider: Coursera
+            date: Jun 2021
+          - name: Introduction to Machine Learning on AWS
+            provider: Coursera
+            date: Oct 2023
+
+      - category: "Statistics & Modeling"
+        icon: "fas fa-calculator"
+        items:
+          - name: Regression Modeling in Practice
+            provider: Coursera
+            date: Mar 2021
+          - name: Excel Statistics Essential Training
+            provider: LinkedIn Learning
+            date: Dec 2021
+
+      - category: "Project Management & Software Development"
+        icon: "fas fa-tasks"
+        items:
+          - name: Agile Development Practices
+            provider: LinkedIn Learning
+            date: Dec 2021
 
 oss:
     title: Medium Articles

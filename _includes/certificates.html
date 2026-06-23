@@ -1,0 +1,39 @@
+{% assign certs = site.data.data.certificates %}
+{% if certs %}
+<section class="section certificates-section">
+  <h2 class="section-title accordion-toggle" onclick="toggleAccordion(this)">
+    <span class="section-icon"><i class="fas fa-certificate"></i></span>
+    {{ certs.title }}
+    <span class="chevron"><i class="fas fa-chevron-down"></i></span>
+  </h2>
+  <div class="accordion-content">
+    {% for group in certs.groups %}
+    <div class="cert-group">
+      <h3 class="cert-category">
+        <i class="{{ group.icon }}"></i> {{ group.category }}
+      </h3>
+      <div class="cert-table-wrapper">
+        <table class="cert-table">
+          <thead>
+            <tr>
+              <th>Certificate</th>
+              <th>Provider</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for cert in group.items %}
+            <tr>
+              <td class="cert-name">{{ cert.name }}</td>
+              <td class="cert-provider">{{ cert.provider }}</td>
+              <td class="cert-date">{{ cert.date }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

@@ -345,3 +345,61 @@ nav li a {
 nav li a:hover {
   background-color: #42A8C0;
 }
+
+/* ===== Certificates Section ===== */
+.certificates-section {
+  .cert-group {
+    margin-bottom: 25px;
+  }
+  .cert-category {
+    font-size: 16px;
+    font-weight: 500;
+    color: darken($theme-color, 15%);
+    margin-bottom: 10px;
+    i {
+      margin-right: 6px;
+    }
+  }
+  .cert-table-wrapper {
+    overflow-x: auto;
+  }
+  .cert-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    thead {
+      background: $smoky-white;
+      th {
+        padding: 8px 12px;
+        text-align: left;
+        font-weight: 600;
+        color: $text-color;
+        border-bottom: 2px solid lighten($theme-color, 20%);
+      }
+    }
+    tbody {
+      tr {
+        border-bottom: 1px solid $smoky-white;
+        &:hover {
+          background: lighten($theme-color, 45%);
+        }
+      }
+      td {
+        padding: 7px 12px;
+        color: $text-color-secondary;
+      }
+    }
+    .cert-name {
+      font-weight: 500;
+      color: $text-color;
+    }
+    .cert-provider {
+      color: $text-grey;
+    }
+    .cert-date {
+      white-space: nowrap;
+      color: $text-grey;
+      text-align: right;
+    }
+  }
+}
