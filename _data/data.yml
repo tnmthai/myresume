@@ -242,10 +242,12 @@ certificates:
           - name: Become a Data Analyst
             provider: LinkedIn Learning
             date: Dec 2021
-          - name: Learning Data Analytics: Foundations
+          - name: |
+              "Learning Data Analytics: Foundations"
             provider: LinkedIn Learning
             date: Dec 2021
-          - name: Learning Data Analytics Part 2: Extending and Applying Core Knowledge
+          - name: |
+              "Learning Data Analytics Part 2: Extending and Applying Core Knowledge"
             provider: LinkedIn Learning
             date: Dec 2021
           - name: Data Analysis and Interpretation Capstone
@@ -276,7 +278,8 @@ certificates:
           - name: Machine Learning for Data Analysis
             provider: Coursera
             date: Mar 2021
-          - name: Azure Machine Learning Development: Basic Concepts
+          - name: |
+              "Azure Machine Learning Development: Basic Concepts"
             provider: LinkedIn Learning
             date: Dec 2021
 
