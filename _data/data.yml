@@ -133,6 +133,10 @@ projects:
         link: "https://www.facebook.com/timia.nz"
         abstract: "Developed a multi-tenant SaaS booking platform with scheduling, online booking, and role-based access management."
 
+      - title: "NZ NDVI Explorer — Satellite Vegetation Map"
+        link: "https://nz-ndvi-map-production.up.railway.app"
+        abstract: "Interactive web map for visualizing NDVI, true color, and false color composites from Sentinel-2 imagery across New Zealand. Built with FastAPI, Leaflet.js, and rio-tiler for on-the-fly COG tile rendering from Microsoft Planetary Computer."
+
 publications:
     title: Selected Publications
     intro: |
