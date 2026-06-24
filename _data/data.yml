@@ -135,7 +135,7 @@ projects:
 
       - title: "NZ NDVI Explorer — Satellite Vegetation Map"
         link: "https://nz-ndvi-map-production.up.railway.app"
-        abstract: "Interactive web map for visualizing NDVI, true color, and false color composites from Sentinel-2 imagery across New Zealand. Built with FastAPI, Leaflet.js, and rio-tiler for on-the-fly COG tile rendering from Microsoft Planetary Computer."
+        abstract: "Interactive web map for visualizing NDVI, true color, and false color composites from Sentinel-2 imagery across New Zealand. Built with FastAPI, Leaflet.js, and rio-tiler for on-the-fly COG tile rendering from Microsoft Planetary Computer. Includes GeoLibre project export for desktop GIS analysis."
 
 publications:
     title: Selected Publications
@@ -162,6 +162,8 @@ skills:
         level: 88%
       - name: Google Earth Engine
         level: 85%
+      - name: GeoLibre / Cloud-Native GIS
+        level: 80%
       - name: UAV Operations (eBeeX, Pix4D)
         level: 85%
       - name: RTK-GNSS (Trimble R10)
