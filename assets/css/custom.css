@@ -35,6 +35,11 @@ body { background: #f0f2f5; }
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid rgba(255,255,255,0.15);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.resume-header .header-avatar:hover {
+  transform: scale(1.05);
+  border-color: rgba(255,255,255,0.35);
 }
 .resume-header .header-name {
   font-size: 22px;
@@ -113,12 +118,18 @@ body { background: #f0f2f5; }
 }
 
 /* ======= Navigation ======= */
+html {
+  scroll-behavior: smooth;
+}
 .site-nav {
   display: flex;
   gap: 2px;
   padding: 0 40px;
   background: #fff;
   border-bottom: 1px solid #e8ecef;
+  position: sticky;
+  top: 0;
+  z-index: 20;
 }
 .site-nav .nav-link {
   display: inline-flex;
@@ -150,11 +161,13 @@ body { background: #f0f2f5; }
   background: #fff;
 }
 .main-wrapper .section {
-  margin-bottom: 2px;
+  margin-bottom: 28px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #f0f2f5;
-  padding-bottom: 2px;
 }
 .main-wrapper .section:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
   border-bottom: none;
 }
 .main-wrapper .section-title {
@@ -163,9 +176,9 @@ body { background: #f0f2f5; }
   font-weight: 600;
   color: #1a2332;
   letter-spacing: 0;
-  margin: 0;
-  padding: 14px 0;
-  border-bottom: none;
+  margin: 0 0 16px;
+  padding: 0 0 10px;
+  border-bottom: 2px solid #edf2f7;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -187,6 +200,12 @@ body { background: #f0f2f5; }
   margin-bottom: 20px;
   padding-bottom: 16px;
   border-bottom: 1px solid #f5f6f8;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+.main-wrapper .experiences-section .item:hover,
+.main-wrapper .educations-section .item:hover {
+  background: #fafbfc;
 }
 .main-wrapper .experiences-section .item:last-child,
 .main-wrapper .educations-section .item:last-child {
@@ -336,6 +355,40 @@ body { background: #f0f2f5; }
 }
 .accordion-content.open {
   display: block;
+}
+
+/* ======= Back to top ======= */
+.back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #1a2332;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: all 0.2s ease;
+  z-index: 30;
+}
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.back-to-top:hover {
+  background: #42A8C0;
+}
+@media print {
+  .back-to-top { display: none !important; }
 }
 
 /* ======= Footer ======= */

@@ -52,3 +52,21 @@ function toggleAccordion(header) {
         $(content).slideDown(200);
     }
 }
+
+/* Back to top button */
+$(function () {
+    var $backToTop = $('#back-to-top');
+    if (!$backToTop.length) return;
+
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop() > 300) {
+            $backToTop.addClass('visible');
+        } else {
+            $backToTop.removeClass('visible');
+        }
+    });
+
+    $backToTop.on('click', function () {
+        $('html, body').animate({ scrollTop: 0 }, 300);
+    });
+});
